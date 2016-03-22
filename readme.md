@@ -12,8 +12,9 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 
 ---
 ## Redis Variety
-* [AliRedis](http://blog.sina.com.cn/s/blog_e59371cc0101br74.html) - AliRedis, which is developed by Alibaba， use a new nginx-like(one-master-multi-worker) framework, in order to get full use of the CPU cores.
+* [webdis](https://github.com/nicolasff/webdis) - A very simple web server providing an HTTP interface to Redis. It uses hiredis, jansson, libevent, and [http-parser](https://github.com/nodejs/http-parser). star: 1595.
 * [Qedis](https://github.com/loveyacper/Qedis) - A C++11 implementation of Redis server. star: 4.
+* [AliRedis](http://blog.sina.com.cn/s/blog_e59371cc0101br74.html) - AliRedis, which is developed by Alibaba， use a new nginx-like(one-master-multi-worker) framework, in order to get full use of the CPU cores.
 
 ---
 ## Redis Proxy
