@@ -3,11 +3,17 @@
 Here is a Redis tool list. I hope you will find one or two of them that you'd like to try out.
 
 - [Redis tool list](#Redis tool list)
+	- [Redis Variety](#redis variety)
 	- [Redis Proxy](#redis proxy)
 	- [Redis data migration](#redis data migration)
 	- [Redis monitor](#redis monitor)
 	- [Redis Admin Web UI](#redis admin web ui)
 	- [Redis ecosystem](#redis ecosystem)
+
+---
+## Redis Variety
+* [AliRedis](http://blog.sina.com.cn/s/blog_e59371cc0101br74.html) - AliRedis, which is developed by Alibaba, use a new nginx-like one-master-multi-worker framework, in order to get full use of the CPU cores.
+* [Qedis](https://github.com/loveyacper/Qedis) - A C++11 implementation of Redis server.
 
 ---
 ## Redis Proxy
