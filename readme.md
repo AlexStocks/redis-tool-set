@@ -2,13 +2,13 @@
 
 Here is a Redis tool list. I hope you will find one or two of them that you'd like to try out.
 
-- [Redis tool list](#Redis tool list)
+- [Redis tool list](#redis tool list)
 	- [Redis Variety](#redis variety)
 	- [Redis Proxy](#redis proxy)
-	- [Redis data migration](#redis data migration)
-	- [Redis monitor](#redis monitor)
+	- [Redis Data Migration](#redis data migration)
+	- [Redis Monitor](#redis monitor)
 	- [Redis Admin Web UI](#redis admin web ui)
-	- [Redis ecosystem](#redis ecosystem)
+	- [Redis Ecosystem](#redis ecosystem)
 
 ---
 ## Redis Variety
@@ -22,13 +22,13 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 * [twemproxy](https://github.com/twitter/twemproxy) - A fast, light-weight proxy for memcached and redis.
 
 ---
-## Redis data migration
+## Redis Data Migration
 * [redis-port](https://github.com/CodisLabs/redis-port) - parse redis rdb file, sync data between redis master and slave
 * [redis-migration](http://www.bitstech.net/2016/03/03/redis-migration/) - A Chinese blog declares its tool(redis-migration, developed by Netease Inc.) is better than redis-port and not open source.
 * [redis rdb file splitter](http://blog.nosqlfan.com/html/4092.html) - In this Chinese blog you will get a script to split Redis rdb db file.
 
 ---
-## Redis monitor
+## Redis Monitor
 * [redis-monitor](https://github.com/LittlePeng/redis-monitor) - base RedisLive,monitor multiple redis-server in product enviroment: monitor multiple redis-instance in one page; monitor memory,comand per sec,HitRate,keyspace, master-slave change,expire; sms alert when crash , master-slave stats changed.
 
 ---
@@ -37,7 +37,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 * [RedisReact](https://github.com/ServiceStackApps/RedisReact) - Redis React is a simple user-friendly UI for browsing data in Redis servers which takes advantages of the complex type conventions built in the ServiceStack.Redis Client to provide a rich, human-friendly UI for navigating related datasets, enabling a fast and fluid browsing experience for your Redis servers. Its related project is [ServiceStack.Redis](https://github.com/ServiceStack/ServiceStack.Redis).
 
 ---
-## Redis ecosystem
+## Redis Ecosystem
 * [awesome-redis](https://github.com/zhemingwang/awesome-redis) - A curated list of amazingly awesome redis and redis ecosystem resources.
 
 ---
