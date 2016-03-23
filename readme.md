@@ -13,7 +13,6 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 ---
 ## Redis Variety
 * [webdis](https://github.com/nicolasff/webdis) - A very simple web server providing an HTTP interface to Redis. It uses hiredis, jansson, libevent, and [http-parser](https://github.com/nodejs/http-parser). star: 1595.
-* [disgear](https://github.com/yangbutao/disgear) - [Disgear](http://m.blog.csdn.net/article/details?id=16896669) is a distributed cache based on redis, support data segmentation on multiple machines, support HA, write&read separation ,and automatic election support the master node failure. star: 53.
 * [Qedis](https://github.com/loveyacper/Qedis) - A C++11 implementation of Redis server. star: 4.
 * [AliRedis](http://blog.sina.com.cn/s/blog_e59371cc0101br74.html) - AliRedis, which is developed by Alibaba， use a new nginx-like(one-master-multi-worker) framework, in order to get full use of the CPU cores.
 
@@ -46,6 +45,12 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [RedisLive](https://github.com/nkrode/RedisLive) - Visualize your redis instances, analyze query patterns and spikes. star: 2125.
 * [cachecloud](https://github.com/sohutv/cachecloud) - A private redis cloud platform developed by Sohu Inc. star: 717.
 * [RedisReact](https://github.com/ServiceStackApps/RedisReact) - Redis React is a simple user-friendly UI for browsing data in Redis servers which takes advantages of the complex type conventions built in the ServiceStack.Redis Client to provide a rich, human-friendly UI for navigating related datasets, enabling a fast and fluid browsing experience for your Redis servers. Its related project is [ServiceStack.Redis](https://github.com/ServiceStack/ServiceStack.Redis). star: 81.
+
+---
+## Redis Based Lock&Cache
+* [disgear](https://github.com/yangbutao/disgear) - [Disgear](http://m.blog.csdn.net/article/details?id=16896669) is a distributed cache based on redis, support data segmentation on multiple machines, support HA, write&read separation ,and automatic election support the master node failure. star: 53.
+* [Distributed locks using Redis](https://engineering.gosquared.com/distributed-locks-using-redis) - How to create reliable locks for a distributed architecture. There is also a [Chinese translation version](http://www.rigongyizu.com/distributed-locks-using-redis/) of this blog.
+* [Redis lock algorithm and implementation list: Distributed locks with Redis](http://redis.io/topics/distlock)
 
 ---
 ## Redis Ecosystem
