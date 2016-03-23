@@ -13,6 +13,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 ---
 ## Redis Variety
 * [webdis](https://github.com/nicolasff/webdis) - A very simple web server providing an HTTP interface to Redis. It uses hiredis, jansson, libevent, and [http-parser](https://github.com/nodejs/http-parser). star: 1595.
+* [disgear](https://github.com/yangbutao/disgear) - [Disgear](http://m.blog.csdn.net/article/details?id=16896669) is a distributed cache based on redis, support data segmentation on multiple machines, support HA, write&read separation ,and automatic election support the master node failure. star: 53.
 * [Qedis](https://github.com/loveyacper/Qedis) - A C++11 implementation of Redis server. star: 4.
 * [AliRedis](http://blog.sina.com.cn/s/blog_e59371cc0101br74.html) - AliRedis, which is developed by Alibaba， use a new nginx-like(one-master-multi-worker) framework, in order to get full use of the CPU cores.
 
