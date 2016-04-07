@@ -25,6 +25,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 ---
 ## Redis Data Migration
 * [redis-port](https://github.com/CodisLabs/redis-port) - parse redis rdb file, sync data between redis master and slave. star: 80.
+* [rdd](https://github.com/r043v/rdd) - redis database dumper, this tool can be used to dump a redis database, work on dump and put dump into redis this tool not use .rdb file! It's a beta software, use it at your own risk! star: 58.
 * [redis-migration](http://www.bitstech.net/2016/03/03/redis-migration/) - A Chinese blog declares its tool(redis-migration, developed by Netease Inc.) is better than redis-port and not open source.
 * [redis rdb file splitter](http://blog.nosqlfan.com/html/4092.html) - In this Chinese blog you will get a script to split Redis rdb db file.
 
