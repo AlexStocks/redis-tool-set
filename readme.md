@@ -41,6 +41,7 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [redis-sampler](https://github.com/antirez/redis-sampler) - Small program to understand the composition of your Redis data set. star: 179.
 * [redis-audit](https://github.com/snmaynard/redis-audit) - This script samples a number of the Redis keys in a database and then groups them with other similar looking keys. It then displays key metrics around those groups of keys to help you spot where efficiencies can be made in the memory usage of your Redis database.Warning: The script cannot be used with AWS Elasticache Redis instances, as the debug command is restricted. star: 114.
 * [redis_key_sizes.sh](https://gist.github.com/epicserve/5699837) - A simple script to print the size of all your Redis keys. star: 52.
+* [Datadog:how_to_collect/monitor_redis_metrics.md](https://github.com/AlexStocks/the-monitor/tree/master/redis) - Markdown files of Datadog : how to collect/monitor redis metrics. star: 37.
 
 ---
 ## Redis Admin Web UI
