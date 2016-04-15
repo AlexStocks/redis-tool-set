@@ -67,4 +67,5 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [awesome-redis](https://github.com/zhemingwang/awesome-redis) - A curated list of amazingly awesome redis and redis ecosystem resources. star: 80.
 
 ---
-*written by Alex Stocks on 2016/03/22*
+* written by Alex Stocks on 2016/03/22*
+* add redmon & redispapa & django-redisboard on 2016/04/15*
