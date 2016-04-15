@@ -36,6 +36,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 * [RedisLive](https://github.com/nkrode/RedisLive) - Visualize your redis instances, analyze query patterns and spikes. star: 2125.
 * [redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools) - Rdbtools is a parser for Redis' dump.rdb files. The parser generates events similar to an xml sax parser, and is very efficient memory wise.
 In addition, rdbtools provides utilities to :Generate a Memory Report of your data across all databases and keys; Convert dump files to JSON; Compare two dump files using standard diff tools. Rdbtools is written in Python, though there are similar projects in other languages. star: 1471.
+* [redmon](https://github.com/steelThread/redmon) - A web interface for managing redis: cli, admin, and live monitoring. Simple sinatra based dashboard for redis. After seeing the fnordmetric project I was inspired to write this. Some of the ideas there have be carried over here. star: 1303 (until 2016/04/15). 
 * [redis-faina](https://github.com/facebookarchive/redis-faina) - At its core, redis-faina uses the Redis MONITOR command, which echoes every single command (with arguments) sent to a Redis instance. It parses these entries, and aggregates stats on the most commonly-hit keys, the queries that took up the most amount of time, and the most common key prefixes as well. star：1002.
 * [redis-stat](https://github.com/junegunn/redis-stat) - redis-stat is a simple Redis monitoring tool written in Ruby.It is based on INFO command of Redis, and thus generally won't affect the performance of the Redis instance unlike the other monitoring tools based on MONITOR command.redis-stat allows you to monitor Redis instances either with vmstat-like output from the terminal or with the dashboard page served by its embedded web server. star: 823.
 * [redispapa](https://github.com/no13bus/redispapa) - another redis monitor by using flask, angular, socket.io. we use redis info to monitor the redis usage. PAPA means a father who is monitoring the redis. accoding to the redis doc, it is be recommanded to use info other than monitor.
@@ -49,7 +50,9 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 ---
 ## Redis Admin Web UI
 * [RedisDesktopManager](https://github.com/uglide/RedisDesktopManager) - Redis Desktop Manager (aka RDM)— is a cross-platform open source Redis DB management tool (i.e. Admin GUI). Redis Desktop Manager developed to replace hundreds of slow and ugly tools for redis. star: 2557.
+* [redmon](https://github.com/steelThread/redmon) - A web interface for managing redis: cli, admin, and live monitoring. Simple sinatra based dashboard for redis. After seeing the fnordmetric project I was inspired to write this. Some of the ideas there have be carried over here. star: 1303 (until 2016/04/15). 
 * [cachecloud](https://github.com/sohutv/cachecloud) - A private redis cloud platform developed by Sohu Inc. star: 717.
+* [django-redisboard](https://github.com/ionelmc/django-redisboard) - Redis monitoring and inspection tool in django admin.its features: Sever statistics in the admin changelist; Key summary in the inspect view; Value introspection with pagination for lists and sorted sets. star: 174(until: 20160415).
 * [RedisReact](https://github.com/ServiceStackApps/RedisReact) - Redis React is a simple user-friendly UI for browsing data in Redis servers which takes advantages of the complex type conventions built in the ServiceStack.Redis Client to provide a rich, human-friendly UI for navigating related datasets, enabling a fast and fluid browsing experience for your Redis servers. Its related project is [ServiceStack.Redis](https://github.com/ServiceStack/ServiceStack.Redis). star: 81.
 * [redis-ctl](https://github.com/HunanTV/redis-ctl) - Redis Instance Controlling and Distribution Service. star: 53.
 
@@ -64,4 +67,5 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [awesome-redis](https://github.com/zhemingwang/awesome-redis) - A curated list of amazingly awesome redis and redis ecosystem resources. star: 80.
 
 ---
-*written by Alex Stocks on 2016/03/22*
+* written by Alex Stocks on 2016/03/22*
+* add redmon & redispapa & django-redisboard on 2016/04/15*
