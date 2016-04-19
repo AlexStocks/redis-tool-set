@@ -19,6 +19,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 ---
 ## Redis Proxy
 * [redis-cerberus](https://github.com/HunanTV/redis-cerberus) - A Redis cluster proxy. Its monitor tool is [redis-ctl](http://m.oschina.net/blog/377568). star: 189.
+* [Redsmin proxy deamon](https://github.com/Redsmin/proxy) - Access local redis instance from Redsmin https://redsmin.com. Redsmin and Redsmin proxy communicate through a secure connection using the TLS 1.2 protocol so no one will be able to inspect the data looking at the traffic. star: 40(until 2014/04/19).
 * [bilitw](https://github.com/anewhuahua/bilitw) - bilitw (bilibili twemproxy), which introduce multi process of twemproxy(one master and mutli worker), is order to get full use of the CPU cores. star: 27.
 * [Corvus](https://github.com/eleme/corvus) - A fast and lightweight Redis Cluster Proxy for Redis 3.0. star: 26.
 * [twemproxy](https://github.com/twitter/twemproxy) - A fast, light-weight proxy for memcached and redis. star: 5123.
@@ -55,6 +56,8 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [django-redisboard](https://github.com/ionelmc/django-redisboard) - Redis monitoring and inspection tool in django admin.its features: Sever statistics in the admin changelist; Key summary in the inspect view; Value introspection with pagination for lists and sorted sets. star: 174(until: 2016/04/15).
 * [RedisReact](https://github.com/ServiceStackApps/RedisReact) - Redis React is a simple user-friendly UI for browsing data in Redis servers which takes advantages of the complex type conventions built in the ServiceStack.Redis Client to provide a rich, human-friendly UI for navigating related datasets, enabling a fast and fluid browsing experience for your Redis servers. Its related project is [ServiceStack.Redis](https://github.com/ServiceStack/ServiceStack.Redis). star: 81.
 * [redis-ctl](https://github.com/HunanTV/redis-ctl) - Redis Instance Controlling and Distribution Service. star: 53.
+* [Redsmin](https://www.redsmin.com) - a developer oriented online administration and monitoring service for Redis and Redis cluster. Redsmin is trusted by more than 10K developers world-wide and manage thousands of Redis servers in real-time. 
+* [RedisManager](https://github.com/giuseppesalvo/RedisManager) - Simple Mac Application to manage Redis Server. star: 6(until 2016/04/19).
 
 ---
 ## Redis Based Lock&Cache
@@ -65,7 +68,9 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 ---
 ## Redis Ecosystem
 * [awesome-redis](https://github.com/zhemingwang/awesome-redis) - A curated list of amazingly awesome redis and redis ecosystem resources. star: 80.
+* [RedisWeekly](http://redisweekly.com) - A once–weekly e-mail round-up of Redis news, articles, tools and libraries followed by more than 5 000 Redis developers.      
 
 ---
 * written by Alex Stocks on 2016/03/22
 * add redmon & redispapa & django-redisboard on 2016/04/15
+* add Redsmin & RedisManager & RedisWeekly on 2016/04/19
