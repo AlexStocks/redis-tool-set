@@ -22,6 +22,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 * [Redsmin proxy deamon](https://github.com/Redsmin/proxy) - Access local redis instance from Redsmin https://redsmin.com. Redsmin and Redsmin proxy communicate through a secure connection using the TLS 1.2 protocol so no one will be able to inspect the data looking at the traffic. star: 40(until 2014/04/19).
 * [bilitw](https://github.com/anewhuahua/bilitw) - bilitw (bilibili twemproxy), which introduce multi process of twemproxy(one master and mutli worker), is order to get full use of the CPU cores. star: 27.
 * [Corvus](https://github.com/eleme/corvus) - A fast and lightweight Redis Cluster Proxy for Redis 3.0. star: 26.
+* [twemproxies](https://github.com/vipshop/twemproxies) - Multithread twemproxy. star: 2(until 2016/04/20).
 * [twemproxy](https://github.com/twitter/twemproxy) - A fast, light-weight proxy for memcached and redis. star: 5123.
 
 ---
@@ -74,3 +75,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * written by Alex Stocks on 2016/03/22
 * add redmon & redispapa & django-redisboard on 2016/04/15
 * add Redsmin & RedisManager & RedisWeekly on 2016/04/19
+* add twemproxies on 2016/04/20
