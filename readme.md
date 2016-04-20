@@ -7,7 +7,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 	- [Redis Proxy](#redis proxy)
 	- [Redis Data Migration](#redis data migration)
 	- [Redis Monitor](#redis monitor)
-	- [Redis Admin Web UI](#redis admin web ui)
+	- [Redis Admin Web & UI](#redis admin web or ui)
 	- [Redis Ecosystem](#redis ecosystem)
 
 ---
@@ -50,13 +50,14 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [Datadog:how_to_collect/monitor_redis_metrics.md](https://github.com/AlexStocks/the-monitor/tree/master/redis) - Markdown files of Datadog : how to collect/monitor redis metrics. star: 37.
 
 ---
-## Redis Admin Web UI
+## Redis Admin Web & UI
 * [RedisDesktopManager](https://github.com/uglide/RedisDesktopManager) - Redis Desktop Manager (aka RDM)— is a cross-platform open source Redis DB management tool (i.e. Admin GUI). Redis Desktop Manager developed to replace hundreds of slow and ugly tools for redis. star: 2557.
 * [redmon](https://github.com/steelThread/redmon) - A web interface for managing redis: cli, admin, and live monitoring. Simple sinatra based dashboard for redis. After seeing the fnordmetric project I was inspired to write this. Some of the ideas there have be carried over here. star: 1303 (until 2016/04/15). 
 * [cachecloud](https://github.com/sohutv/cachecloud) - A private redis cloud platform developed by Sohu Inc. star: 717.
 * [django-redisboard](https://github.com/ionelmc/django-redisboard) - Redis monitoring and inspection tool in django admin.its features: Sever statistics in the admin changelist; Key summary in the inspect view; Value introspection with pagination for lists and sorted sets. star: 174(until: 2016/04/15).
 * [RedisReact](https://github.com/ServiceStackApps/RedisReact) - Redis React is a simple user-friendly UI for browsing data in Redis servers which takes advantages of the complex type conventions built in the ServiceStack.Redis Client to provide a rich, human-friendly UI for navigating related datasets, enabling a fast and fluid browsing experience for your Redis servers. Its related project is [ServiceStack.Redis](https://github.com/ServiceStack/ServiceStack.Redis). star: 81.
 * [redis-ctl](https://github.com/HunanTV/redis-ctl) - Redis Instance Controlling and Distribution Service. star: 53.
+* [fastoredis](https://github.com/fastogt/fastoredis) - FastoRedis is a crossplatform Redis GUI management tool. star: 42(until 2016/04/20).
 * [Redsmin](https://www.redsmin.com) - a developer oriented online administration and monitoring service for Redis and Redis cluster. Redsmin is trusted by more than 10K developers world-wide and manage thousands of Redis servers in real-time. 
 * [RedisManager](https://github.com/giuseppesalvo/RedisManager) - Simple Mac Application to manage Redis Server. star: 6(until 2016/04/19).
 
@@ -75,4 +76,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * written by Alex Stocks on 2016/03/22
 * add redmon & redispapa & django-redisboard on 2016/04/15
 * add Redsmin & RedisManager & RedisWeekly on 2016/04/19
-* add twemproxies on 2016/04/20
+* add twemproxies & fastoredis on 2016/04/20
