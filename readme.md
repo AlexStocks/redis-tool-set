@@ -9,6 +9,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 	- [Redis Data Migration](#redis data migration)
 	- [Redis Monitor](#redis monitor)
 	- [Redis Admin Web & UI](#redis admin web or ui)
+    - [Redis Golang Packages](#redis packages written in goalng)
 	- [Redis Ecosystem](#redis ecosystem)
 
 ---
@@ -69,6 +70,13 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [RedisManager](https://github.com/giuseppesalvo/RedisManager) - Simple Mac Application to manage Redis Server. star: 6(until 2016/04/19).
 
 ---
+## Redis Golang Packages
+* [redigo](https://github.com/garyburd/redigo/) - Redis Sentinel support for redigo library. star: 2236(until 2014/06/09).
+* [redigomock](https://github.com/rafaeljusto/redigomock) - Easy way to unit test projects using redigo library (Redis client in go). star: 26(until 2014/06/09).
+* [redi-go-cluster](https://github.com/chasex/redis-go-cluster) - redis-go-cluster is a golang implementation of redis client based on Gary Burd's Redigo. It caches slot info at local and updates it automatically when cluster change. The client manages a connection pool for each node, uses goroutine to execute as concurrently as possible, which leads to its high efficiency and low lantency. star: 50(until 2014/06/09).
+* [go-sentinel](https://github.com/FZambia/go-sentinel) - Redis Sentinel support for redigo library. star: 5(until 2014/06/09).
+
+---
 ## Redis Based Lock&Cache
 * [disgear](https://github.com/yangbutao/disgear) - [Disgear](http://m.blog.csdn.net/article/details?id=16896669) is a distributed cache based on redis, support data segmentation on multiple machines, support HA, write&read separation ,and automatic election support the master node failure. star: 53.
 * [Distributed locks using Redis](https://engineering.gosquared.com/distributed-locks-using-redis) - How to create reliable locks for a distributed architecture. There is also a [Chinese translation version](http://www.rigongyizu.com/distributed-locks-using-redis/) of this blog.
@@ -85,3 +93,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add Redsmin & RedisManager & RedisWeekly on 2016/04/19
 * add twemproxies & fastoredis on 2016/04/20
 * add redis cluster(codis & Pika) on 2016/05/12
+* add redigo & redi-go-cluster & redigomock & go-sentinel on 2014/06/09
