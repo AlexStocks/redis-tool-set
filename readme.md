@@ -9,7 +9,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 	- [Redis Data Migration](#redis data migration)
 	- [Redis Monitor](#redis monitor)
 	- [Redis Admin Web & UI](#redis admin web or ui)
-    - [Redis Golang Packages](#redis packages written in goalng)
+    - [Redis Golang Packages](#redis packages written in golang)
 	- [Redis Ecosystem](#redis ecosystem)
 
 ---
