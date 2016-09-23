@@ -80,6 +80,7 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [redigomock](https://github.com/rafaeljusto/redigomock) - Easy way to unit test projects using redigo library (Redis client in go). star: 26(until 2016/06/09).
 * [redi-go-cluster](https://github.com/chasex/redis-go-cluster) - redis-go-cluster is a golang implementation of redis client based on Gary Burd's Redigo. It caches slot info at local and updates it automatically when cluster change. The client manages a connection pool for each node, uses goroutine to execute as concurrently as possible, which leads to its high efficiency and low lantency. star: 50(until 2016/06/09).
 * [go-sentinel](https://github.com/FZambia/go-sentinel) - Redis Sentinel support for redigo library. star: 5(until 2016/06/09).
+* [redis-failover](https://github.com/FZambia/go-sentinel) - Automatic redis monitoring and failover based on Go.(http://siddontang.com/2015/05/03/use-hashicorp-raft-to-build-a-redis-sentinel/)(lang:golang, star:66, 2016/09/23).
 
 ---
 ## Redis Based Lock&Cache
@@ -100,4 +101,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add redis cluster(codis & Pika) on 2016/05/12
 * add redigo & redi-go-cluster & redigomock & go-sentinel on 2016/06/09
 * add ardb & twemproxy-163 & xredis-server on 2016/09/02
-* add Pedis on 2016/09/23
+* add Pedis & redis-failover on 2016/09/23
