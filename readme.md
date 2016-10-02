@@ -81,6 +81,14 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [redi-go-cluster](https://github.com/chasex/redis-go-cluster) - redis-go-cluster is a golang implementation of redis client based on Gary Burd's Redigo. It caches slot info at local and updates it automatically when cluster change. The client manages a connection pool for each node, uses goroutine to execute as concurrently as possible, which leads to its high efficiency and low lantency. star: 50(until 2016/06/09).
 * [go-sentinel](https://github.com/FZambia/go-sentinel) - Redis Sentinel support for redigo library. star: 5(until 2016/06/09).
 * [redis-failover](https://github.com/FZambia/go-sentinel) - Automatic redis monitoring and failover based on Go.(http://siddontang.com/2015/05/03/use-hashicorp-raft-to-build-a-redis-sentinel/)(lang:golang, star:66, 2016/09/23).
+* [miniredis](https://github.com/alicebob/miniredis) - Pure Go Redis test server, used in Go unittests. Sometimes you want to test code which uses Redis, without making it a full-blown integration test. Miniredis implements (parts of) the Redis server, to be used in unittests.(lang:golang, star:294, 2016/09/23)
+* [redeo](https://github.com/bsm/redeo) - High-performance framework for building redis-protocol compatible TCP servers/services. Optimised for speed!(lang:golang, star:108, 2016/09/23)
+* [libredis](https://github.com/therealbill/libredis) - Libredis is intended to be more than a simple client connection library. It will include Redis specific custom operations, Structures, and capabilities suitable for integrating with any Go code which interacts with Redis ranging from simple CRUD operations to service management.(lang:golang, star:8, 2016/09/23)
+* [go-redis](https://github.com/fiorix/go-redis) - go-redis is a Redis client library for the Go programming language. It's built on the skeleton of gomemcache.(lang:golang, star:39, 2016/09/23)
+* [goatee](https://github.com/johnernaut/goatee) - A Redis-backed notification server written in Go. goatee works by listening on a channel via Redis Pub/Sub and then sending the received message to connected clients via WebSockets. Clients may create channels to listen on by using the goatee client library.(lang:golang, star:270, 2016/10/02).
+* [juggler](https://github.com/PuerkitoBio/juggler) - Juggler implements highly decoupled, asynchronous RPC and pub-sub over websocket connections using redis as broker. It refers both to a websocket subprotocol and the implementation of a juggler server. The repository also contains implementations of the callee, broker and client roles. This is still experimental. Use at your own risk. Not battle-tested in production environment. API may change. Javascript (and other languages) client not implemented yet.(lang:golang, star:41, 2016/10/02).
+* [broadcaster](https://github.com/rubenv/broadcaster) - Package broadcaster implements a websocket server for broadcasting Redis pub/sub messages to web clients.(lang:golang, star:4, 2016/10/02).
+* [redisocket.v2](https://github.com/syhlion/redisocket.v2) - Base on gorilla/websocket & garyburd/redigo.(lang:golang, star:0, 2016/10/02).
 
 ---
 ## Redis Based Lock&Cache
@@ -101,4 +109,5 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add redis cluster(codis & Pika) on 2016/05/12
 * add redigo & redi-go-cluster & redigomock & go-sentinel on 2016/06/09
 * add ardb & twemproxy-163 & xredis-server on 2016/09/02
-* add Pedis & redis-failover on 2016/09/23
+* add Pedis & redis-failover & miniredis & redeo & libredis & go-redis on 2016/09/23
+* add goatee & juggler & broadcaster & redisocket.v2 on 2016/10/02
