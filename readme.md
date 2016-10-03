@@ -89,6 +89,7 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [juggler](https://github.com/PuerkitoBio/juggler) - Juggler implements highly decoupled, asynchronous RPC and pub-sub over websocket connections using redis as broker. It refers both to a websocket subprotocol and the implementation of a juggler server. The repository also contains implementations of the callee, broker and client roles. This is still experimental. Use at your own risk. Not battle-tested in production environment. API may change. Javascript (and other languages) client not implemented yet.(lang:golang, star:41, 2016/10/02).
 * [broadcaster](https://github.com/rubenv/broadcaster) - Package broadcaster implements a websocket server for broadcasting Redis pub/sub messages to web clients.(lang:golang, star:4, 2016/10/02).
 * [redisocket.v2](https://github.com/syhlion/redisocket.v2) - Base on gorilla/websocket & garyburd/redigo.(lang:golang, star:0, 2016/10/02).
+* [redis](https://github.com/go-redis/redis) - Redis client for Golang.(lang:golang, star:1109, 2016/10/03)
 
 ---
 ## Redis Based Lock&Cache
@@ -111,3 +112,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add ardb & twemproxy-163 & xredis-server on 2016/09/02
 * add Pedis & redis-failover & miniredis & redeo & libredis & go-redis on 2016/09/23
 * add goatee & juggler & broadcaster & redisocket.v2 on 2016/10/02
+* add redis on 2016/10/03
