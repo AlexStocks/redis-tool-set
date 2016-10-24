@@ -90,6 +90,7 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [broadcaster](https://github.com/rubenv/broadcaster) - Package broadcaster implements a websocket server for broadcasting Redis pub/sub messages to web clients.(lang:golang, star:4, 2016/10/02).
 * [redisocket.v2](https://github.com/syhlion/redisocket.v2) - Base on gorilla/websocket & garyburd/redigo.(lang:golang, star:0, 2016/10/02).
 * [redis](https://github.com/go-redis/redis) - Redis client for Golang.(lang:golang, star:1109, 2016/10/03)
+* [Go-Redis](https://github.com/alphazero/Go-Redis) - Google Go Client and Connectors for Redis.(lang:golang, star:238, 2016/10/24)
 
 ---
 ## Redis Based Lock&Cache
@@ -113,3 +114,5 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add Pedis & redis-failover & miniredis & redeo & libredis & go-redis on 2016/09/23
 * add goatee & juggler & broadcaster & redisocket.v2 on 2016/10/02
 * add redis on 2016/10/03
+* add Go-Redis on 2016/10/24
+
