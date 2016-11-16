@@ -24,7 +24,6 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 * [webdis](https://github.com/nicolasff/webdis) - A very simple web server providing an HTTP interface to Redis. It uses hiredis, jansson, libevent, and [http-parser](https://github.com/nodejs/http-parser). star: 1595.
 * [ardb](https://github.com/yinqiwen/ardb) - A redis protocol compatible nosql, it support multiple storage engines as backend like Google's LevelDB, Facebook's RocksDB, OpenLDAP's LMDB, PerconaFT, WiredTiger, ForestDB. star 739(until 2016/09/02).
 * [Pedis](https://github.com/fastio/pedis) - NoSQL data store using the SEASTAR framework, compatible with REDIS. star:169(until 2016/09/23)
-* [xredis-server](https://github.com/0xsky/xredis-server) - A server framework using redis protocol. star: 17(until 2016/09/02).
 * [Qedis](https://github.com/loveyacper/Qedis) - A C++11 implementation of Redis server. star: 4.
 * [AliRedis](http://blog.sina.com.cn/s/blog_e59371cc0101br74.html) - AliRedis, which is developed by Alibaba， use a new nginx-like(one-master-multi-worker) framework, in order to get full use of the CPU cores.
 * [Pushlet](https://github.com/wjw465150/Pushlet/tree/branch-redis) - Pushlet 是一个开源的 Comet 框架,Pushlet 使用了观察者模型：客户端发送请求，订阅感兴趣的事件；服务器端为每个客户端分配一个会话 ID 作为标记，事件源会把新产生的事件以多播的方式发送到订阅者的事件队列里。(lang:js, star:79, 2016/10/24)
@@ -113,7 +112,7 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add twemproxies & fastoredis on 2016/04/20
 * add redis cluster(codis & Pika) on 2016/05/12
 * add redigo & redi-go-cluster & redigomock & go-sentinel on 2016/06/09
-* add ardb & twemproxy-163 & xredis-server on 2016/09/02
+* add ardb & twemproxy-163 on 2016/09/02
 * add Pedis & redis-failover & miniredis & redeo & libredis & go-redis on 2016/09/23
 * add goatee & juggler & broadcaster & redisocket.v2 on 2016/10/02
 * add redis on 2016/10/03
