@@ -1,4 +1,4 @@
-﻿# Redis tool list #
+# Redis tool list #
 
 Here is a Redis tool list. I hope you will find one or two of them that you'd like to try out.
 
@@ -15,8 +15,9 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 
 ---
 ## Redis Cluster
-* [Codis](https://github.com/nicolasff/webdis) - Codis is a proxy based high performance Redis cluster solution written in Go. It is production-ready and widely used at wandoujia.com and many companies. star: 4177(until 2016/05/12).
+* [Codis](https://github.com/CodisLabs/codis) - Codis is a proxy based high performance Redis cluster solution written in Go. It is production-ready and widely used at wandoujia.com and many companies. star: 4177(until 2016/05/12).
 * [Pika](https://github.com/Qihoo360/pika) - [Pika](https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653547160&idx=1&sn=befd195e2aa788775aaf1cc3b6f6fab3&scene=1&srcid=05125RMahWYSgUb4fIUJYIj5&pass_ticket=fV%2BqHxDSZBGR5J2M0sWKaCnKGlnuoGkHfFfqcHa5mu0Lw4yA4wUZoRAqV7CQuMMk#rd) is a nosql compatible with redis protocol, it is developed by Qihoo's DBA and infrastructure team, and it is widely used in QiHoo. Pika is a persistent huge storage service , compatible with the vast majority of redis interfaces (details), including string, hash, list, zset, set and management interfaces. With the huge amount of data stored, redis may suffer for a capacity bottleneck, and pika was born for solving it. Except huge storage capacity, pika also support master-slave mode by slaveof command, including full and partial synchronization. star:85(until 2016/05/12).
+* [x-pipe](https://github.com/ctripcorp/x-pipe) -  Redis 多数据中心集群，一是为了提升可用性，解决数据中心 DR(Disaster Recovery) 问题，二是提升访问性能，每个数据中心可以读取当前数据中心的数据，无需跨机房读数据。star:284(until 2017/07/01).
 
 
 ---
@@ -118,4 +119,5 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add redis on 2016/10/03
 * add Go-Redis & Pushlet on 2016/10/24
 * add xredis-server on 2016/11/16
+* add x-pipe on 2017/07/01
 
