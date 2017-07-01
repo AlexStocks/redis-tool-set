@@ -13,6 +13,8 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 	- [Redis Ecosystem](#redis ecosystem)
 	- [IM](#IM)
 
+[toc]
+
 ---
 ## Redis Cluster[TOC]
 * [Codis](https://github.com/CodisLabs/codis) - Codis is a proxy based high performance Redis cluster solution written in Go. It is production-ready and widely used at wandoujia.com and many companies. star: 4177(until 2016/05/12).
