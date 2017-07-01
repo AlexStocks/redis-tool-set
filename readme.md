@@ -14,14 +14,14 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 	- [IM](#IM)
 
 ---
-## Redis Cluster
+## Redis Cluster[TOC]
 * [Codis](https://github.com/CodisLabs/codis) - Codis is a proxy based high performance Redis cluster solution written in Go. It is production-ready and widely used at wandoujia.com and many companies. star: 4177(until 2016/05/12).
 * [Pika](https://github.com/Qihoo360/pika) - [Pika](https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653547160&idx=1&sn=befd195e2aa788775aaf1cc3b6f6fab3&scene=1&srcid=05125RMahWYSgUb4fIUJYIj5&pass_ticket=fV%2BqHxDSZBGR5J2M0sWKaCnKGlnuoGkHfFfqcHa5mu0Lw4yA4wUZoRAqV7CQuMMk#rd) is a nosql compatible with redis protocol, it is developed by Qihoo's DBA and infrastructure team, and it is widely used in QiHoo. Pika is a persistent huge storage service , compatible with the vast majority of redis interfaces (details), including string, hash, list, zset, set and management interfaces. With the huge amount of data stored, redis may suffer for a capacity bottleneck, and pika was born for solving it. Except huge storage capacity, pika also support master-slave mode by slaveof command, including full and partial synchronization. star:85(until 2016/05/12).
 * [x-pipe](https://github.com/ctripcorp/x-pipe) -  Redis 多数据中心集群，一是为了提升可用性，解决数据中心 DR(Disaster Recovery) 问题，二是提升访问性能，每个数据中心可以读取当前数据中心的数据，无需跨机房读数据。star:284(until 2017/07/01).
 
 
 ---
-## Redis Variety
+## Redis Variety[TOC] 
 * [webdis](https://github.com/nicolasff/webdis) - A very simple web server providing an HTTP interface to Redis. It uses hiredis, jansson, libevent, and [http-parser](https://github.com/nodejs/http-parser). star: 1595.
 * [ardb](https://github.com/yinqiwen/ardb) - A redis protocol compatible nosql, it support multiple storage engines as backend like Google's LevelDB, Facebook's RocksDB, OpenLDAP's LMDB, PerconaFT, WiredTiger, ForestDB. star 739(until 2016/09/02).
 * [Pedis](https://github.com/fastio/pedis) - NoSQL data store using the SEASTAR framework, compatible with REDIS. star:169(until 2016/09/23)
@@ -31,7 +31,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 * [xredis-server](https://github.com/0xsky/xredis-server) - redis-server is a redis server framework library write by C++, using this library you can develop redis protocol compatible server easily. xredis-server requires libevent. star: 46(until 2016/11/16).
 
 ---
-## Redis Proxy
+## Redis Proxy[TOC] 
 * [twemproxy](https://github.com/twitter/twemproxy) - A fast, light-weight proxy for memcached and redis. star: 5123.
 * [redis-cerberus](https://github.com/HunanTV/redis-cerberus) - A Redis cluster proxy. Its monitor tool is [redis-ctl](http://m.oschina.net/blog/377568). star: 189.
 * [Redsmin proxy deamon](https://github.com/Redsmin/proxy) - Access local redis instance from Redsmin https://redsmin.com. Redsmin and Redsmin proxy communicate through a secure connection using the TLS 1.2 protocol so no one will be able to inspect the data looking at the traffic. star: 40(until 2016/04/19).
@@ -42,7 +42,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 
 
 ---
-## Redis Data Migration
+## Redis Data Migration[TOC] 
 * [redis-port](https://github.com/CodisLabs/redis-port) - parse redis rdb file, sync data between redis master and slave. star: 80.
 * [rdd](https://github.com/r043v/rdd) - redis database dumper, this tool can be used to dump a redis database, work on dump and put dump into redis this tool not use .rdb file! It's a beta software, use it at your own risk! star: 58.
 * [redis-migrate-tool](https://github.com/vipshop/redis-migrate-tool) - redis-migrate-tool is a convenient and useful tool for migrating data between redis. It is based on redis replication. In the process of migrating data, the source redis also can provide services for users. star: 19.
@@ -50,7 +50,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 * [redis rdb file splitter](http://blog.nosqlfan.com/html/4092.html) - In this Chinese blog you will get a script to split Redis rdb db file.
 
 ---
-## Redis Monitor
+## Redis Monitor[TOC] 
 * [RedisLive](https://github.com/nkrode/RedisLive) - Visualize your redis instances, analyze query patterns and spikes. star: 2125.
 * [redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools) - Rdbtools is a parser for Redis' dump.rdb files. The parser generates events similar to an xml sax parser, and is very efficient memory wise.
 In addition, rdbtools provides utilities to :Generate a Memory Report of your data across all databases and keys; Convert dump files to JSON; Compare two dump files using standard diff tools. Rdbtools is written in Python, though there are similar projects in other languages. star: 1471.
@@ -66,7 +66,7 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [Datadog:how_to_collect/monitor_redis_metrics.md](https://github.com/AlexStocks/the-monitor/tree/master/redis) - Markdown files of Datadog : how to collect/monitor redis metrics. star: 37.
 
 ---
-## Redis Admin Web & UI
+## Redis Admin Web & UI[TOC] 
 * [RedisDesktopManager](https://github.com/uglide/RedisDesktopManager) - Redis Desktop Manager (aka RDM)— is a cross-platform open source Redis DB management tool (i.e. Admin GUI). Redis Desktop Manager developed to replace hundreds of slow and ugly tools for redis. star: 2557.
 * [redmon](https://github.com/steelThread/redmon) - A web interface for managing redis: cli, admin, and live monitoring. Simple sinatra based dashboard for redis. After seeing the fnordmetric project I was inspired to write this. Some of the ideas there have be carried over here. star: 1303 (until 2016/04/15).
 * [cachecloud](https://github.com/sohutv/cachecloud) - A private redis cloud platform developed by Sohu Inc. star: 717.
@@ -78,7 +78,7 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [RedisManager](https://github.com/giuseppesalvo/RedisManager) - Simple Mac Application to manage Redis Server. star: 6(until 2016/04/19).
 
 ---
-## Redis Golang Packages
+## Redis Golang Packages[TOC] 
 * [redigo](https://github.com/garyburd/redigo/) - Redis Sentinel support for redigo library. star: 2236(until 2016/06/09).
 * [redigomock](https://github.com/rafaeljusto/redigomock) - Easy way to unit test projects using redigo library (Redis client in go). star: 26(until 2016/06/09).
 * [redi-go-cluster](https://github.com/chasex/redis-go-cluster) - redis-go-cluster is a golang implementation of redis client based on Gary Burd's Redigo. It caches slot info at local and updates it automatically when cluster change. The client manages a connection pool for each node, uses goroutine to execute as concurrently as possible, which leads to its high efficiency and low lantency. star: 50(until 2016/06/09).
@@ -96,13 +96,13 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [Go-Redis](https://github.com/alphazero/Go-Redis) - Google Go Client and Connectors for Redis.(lang:golang, star:238, 2016/10/24)
 
 ---
-## Redis Based Lock&Cache
+## Redis Based Lock&Cache[TOC] 
 * [disgear](https://github.com/yangbutao/disgear) - [Disgear](http://m.blog.csdn.net/article/details?id=16896669) is a distributed cache based on redis, support data segmentation on multiple machines, support HA, write&read separation ,and automatic election support the master node failure. star: 53.
 * [Distributed locks using Redis](https://engineering.gosquared.com/distributed-locks-using-redis) - How to create reliable locks for a distributed architecture. There is also a [Chinese translation version](http://www.rigongyizu.com/distributed-locks-using-redis/) of this blog.
 * [Redis lock algorithm and implementation list: Distributed locks with Redis](http://redis.io/topics/distlock)
 
 ---
-## Redis Ecosystem
+## Redis Ecosystem[TOC] 
 * [awesome-redis](https://github.com/zhemingwang/awesome-redis) - A curated list of amazingly awesome redis and redis ecosystem resources. star: 80.
 * [RedisWeekly](http://redisweekly.com) - A once–weekly e-mail round-up of Redis news, articles, tools and libraries followed by more than 5 000 Redis developers.
 
