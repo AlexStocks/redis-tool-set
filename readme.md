@@ -2,7 +2,16 @@
 
 Here is a Redis tool list. I hope you will find one or two of them that you'd like to try out.
 
-[TOC]
+* [Redis tool list](#redis-tool-list)
+  * [Redis Cluster](#redis-cluster)
+  * [Redis Variety](#redis-variety)
+  * [Redis Proxy](#redis-proxy)
+  * [Redis Data Migration](#redis-data-migration)
+  * [Redis Monitor](#redis-monitor)
+  * [Redis Admin Web &amp; UI](#redis-admin-web--ui)
+  * [Redis Golang Packages](#redis-golang-packages)
+  * [Redis Based Lock&amp;Cache](#redis-based-lockcache)
+  * [Redis Ecosystem](#redis-ecosystem)
 
 ---
 ## Redis Cluster
