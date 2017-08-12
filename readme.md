@@ -95,6 +95,7 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [redisocket.v2](https://github.com/syhlion/redisocket.v2) - Base on gorilla/websocket & garyburd/redigo.(lang:golang, star:0, 2016/10/02).
 * [redis](https://github.com/go-redis/redis) - Redis client for Golang.(lang:golang, star:1109, 2016/10/03)
 * [Go-Redis](https://github.com/alphazero/Go-Redis) - Google Go Client and Connectors for Redis.(lang:golang, star:238, 2016/10/24)
+* [gosexy/redis](https://github.com/gosexy/redis) - Redis client for Go that maps the full redis command list into equivalent Go functions.(lang:golang, star:159, 2017/08/12)
 
 ---
 ## Redis Based Lock&Cache 
@@ -122,4 +123,5 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add xredis-server on 2016/11/16
 * add x-pipe on 2017/07/01
 * add redisvo on 2017/08/10
+* add gosexy/redis on 2017/08/12
 
