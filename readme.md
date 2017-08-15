@@ -77,6 +77,7 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [Redsmin](https://www.redsmin.com) - a developer oriented online administration and monitoring service for Redis and Redis cluster. Redsmin is trusted by more than 10K developers world-wide and manage thousands of Redis servers in real-time.
 * [RedisManager](https://github.com/giuseppesalvo/RedisManager) - Simple Mac Application to manage Redis Server. star: 6(until 2016/04/19).
 * [redisvo](https://github.com/taomin597715379/redisvo) - a web-based redis data visualization tool。Star: 10(until 2017/08/10). Lang: Golang.
+* [medis](https://github.com/luin/medis) - Medis is a beautiful, easy-to-use Redis management application built on the modern web with Electron, React, and Redux. It's powered by many awesome Node.js modules, especially ioredis and ssh2.Star: 4490(until 2017/08/15). Lang: Js.
 
 ---
 ## Redis Golang Packages 
@@ -124,4 +125,5 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add x-pipe on 2017/07/01
 * add redisvo on 2017/08/10
 * add gosexy/redis on 2017/08/12
+* add medis on 2017/08/15
 
