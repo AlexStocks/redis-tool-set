@@ -18,7 +18,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 * [Codis](https://github.com/CodisLabs/codis) - Codis is a proxy based high performance Redis cluster solution written in Go. It is production-ready and widely used at wandoujia.com and many companies. star: 4177(until 2016/05/12).
 * [Pika](https://github.com/Qihoo360/pika) - [Pika](https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653547160&idx=1&sn=befd195e2aa788775aaf1cc3b6f6fab3&scene=1&srcid=05125RMahWYSgUb4fIUJYIj5&pass_ticket=fV%2BqHxDSZBGR5J2M0sWKaCnKGlnuoGkHfFfqcHa5mu0Lw4yA4wUZoRAqV7CQuMMk#rd) is a nosql compatible with redis protocol, it is developed by Qihoo's DBA and infrastructure team, and it is widely used in QiHoo. Pika is a persistent huge storage service , compatible with the vast majority of redis interfaces (details), including string, hash, list, zset, set and management interfaces. With the huge amount of data stored, redis may suffer for a capacity bottleneck, and pika was born for solving it. Except huge storage capacity, pika also support master-slave mode by slaveof command, including full and partial synchronization. star:85(until 2016/05/12).
 * [x-pipe](https://github.com/ctripcorp/x-pipe) -  Redis 多数据中心集群，一是为了提升可用性，解决数据中心 DR(Disaster Recovery) 问题，二是提升访问性能，每个数据中心可以读取当前数据中心的数据，无需跨机房读数据。star:284(until 2017/07/01).
-
+* [cc](https://github.com/ksarch-saas/cc) - This is a Redis Cluster Controller to control the state of the cluster nodes and provide http api and tools(both command line and web ui). Star: 17(until 2017/08/19). Lang: go & Js.
 
 ---
 ## Redis Variety
@@ -29,6 +29,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 * [AliRedis](http://blog.sina.com.cn/s/blog_e59371cc0101br74.html) - AliRedis, which is developed by Alibaba， use a new nginx-like(one-master-multi-worker) framework, in order to get full use of the CPU cores.
 * [Pushlet](https://github.com/wjw465150/Pushlet/tree/branch-redis) - Pushlet 是一个开源的 Comet 框架,Pushlet 使用了观察者模型：客户端发送请求，订阅感兴趣的事件；服务器端为每个客户端分配一个会话 ID 作为标记，事件源会把新产生的事件以多播的方式发送到订阅者的事件队列里。(lang:js, star:79, 2016/10/24)
 * [xredis-server](https://github.com/0xsky/xredis-server) - redis-server is a redis server framework library write by C++, using this library you can develop redis protocol compatible server easily. xredis-server requires libevent. star: 46(until 2016/11/16).
+* [qdb](https://github.com/reborndb/qdb) - A fast, high availability, fully Redis compatible store engine. star: 287(until 2017/08/19).
 
 ---
 ## Redis Proxy
@@ -103,6 +104,7 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [disgear](https://github.com/yangbutao/disgear) - [Disgear](http://m.blog.csdn.net/article/details?id=16896669) is a distributed cache based on redis, support data segmentation on multiple machines, support HA, write&read separation ,and automatic election support the master node failure. star: 53.
 * [Distributed locks using Redis](https://engineering.gosquared.com/distributed-locks-using-redis) - How to create reliable locks for a distributed architecture. There is also a [Chinese translation version](http://www.rigongyizu.com/distributed-locks-using-redis/) of this blog.
 * [Redis lock algorithm and implementation list: Distributed locks with Redis](http://redis.io/topics/distlock)
+* [redsync](https://github.com/go-redsync/redsync) - Distributed mutual exclusion lock using Redis for Go. Star: 86 (until 2017/08/19). Lang: Golang.
 
 ---
 ## Redis Ecosystem 
@@ -126,4 +128,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add redisvo on 2017/08/10
 * add gosexy/redis on 2017/08/12
 * add medis on 2017/08/15
-
+* add qdb & redsync && cc on 2017/08/19
