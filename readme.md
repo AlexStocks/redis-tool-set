@@ -49,6 +49,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 * [redis-migrate-tool](https://github.com/vipshop/redis-migrate-tool) - redis-migrate-tool is a convenient and useful tool for migrating data between redis. It is based on redis replication. In the process of migrating data, the source redis also can provide services for users. star: 19.
 * [redis-migration](http://www.bitstech.net/2016/03/03/redis-migration/) - A Chinese blog declares its tool(redis-migration, developed by Netease Inc.) is better than redis-port and not open source.
 * [redis rdb file splitter](http://blog.nosqlfan.com/html/4092.html) - In this Chinese blog you will get a script to split Redis rdb db file.
+* [redis-migration](https://github.com/helifu/redis-migration) - redis-migration is a fast, light-weight migration tool for redis. Just add redis-migration.c to the redis sources. We scale out our redis clusters by this tool. Star: 35(until 2017/08/22). Lang: C.
 
 ---
 ## Redis Monitor 
@@ -130,4 +131,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add gosexy/redis on 2017/08/12
 * add medis on 2017/08/15
 * add qdb & redsync && cc on 2017/08/19
-* add redis-rdb-tools on 2017/08/22
+* add redis-rdb-tools & redis-migration on 2017/08/22
