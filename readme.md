@@ -2,10 +2,13 @@
 
 Here is a Redis tool list. I hope you will find one or two of them that you'd like to try out.
 
-* [Redis tool list](#redis-tool-list)
+
+Table of Contents
+=================
   * [Redis Cluster](#redis-cluster)
   * [Redis Variety](#redis-variety)
   * [Redis Proxy](#redis-proxy)
+  * [Redis Client](#redis-client)
   * [Redis Data Migration](#redis-data-migration)
   * [Redis Monitor](#redis-monitor)
   * [Redis Admin Web &amp; UI](#redis-admin-web--ui)
@@ -30,6 +33,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 * [Pushlet](https://github.com/wjw465150/Pushlet/tree/branch-redis) - Pushlet 是一个开源的 Comet 框架,Pushlet 使用了观察者模型：客户端发送请求，订阅感兴趣的事件；服务器端为每个客户端分配一个会话 ID 作为标记，事件源会把新产生的事件以多播的方式发送到订阅者的事件队列里。(lang:js, star:79, 2016/10/24)
 * [xredis-server](https://github.com/0xsky/xredis-server) - redis-server is a redis server framework library write by C++, using this library you can develop redis protocol compatible server easily. xredis-server requires libevent. star: 46(until 2016/11/16).
 * [qdb](https://github.com/reborndb/qdb) - A fast, high availability, fully Redis compatible store engine. star: 287(until 2017/08/19).
+* [vire](https://github.com/vipshop/vire) - vire (pronounced "vip-redis") is a multithread redis(based on redis-3.2.0) maintains in vipshop. star: 110(until 2017/08/22). Lang: C.
 
 ---
 ## Redis Proxy
@@ -39,8 +43,12 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 * [bilitw](https://github.com/anewhuahua/bilitw) - bilitw (bilibili twemproxy), which introduce multi process of twemproxy(one master and mutli worker), is order to get full use of the CPU cores. star: 27.
 * [Corvus](https://github.com/eleme/corvus) - A fast and lightweight Redis Cluster Proxy for Redis 3.0. star: 26.
 * [twemproxy-163](https://github.com/helifu/twemproxy-163) - twemproxy-163 supports redis-server failover by communicating with redis-sentinel. star: 16(until 2016/09/02).
-* [twemproxies](https://github.com/vipshop/twemproxies) - Multithread twemproxy. star: 2(until 2016/04/20).
+* [twemproxies](https://github.com/vipshop/twemproxies) - twemproxies ( nutcrackers ) is a multithread, fast and lightweight proxy for memcached and redis protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture. star: 2(until 2016/04/20).
+* [twemproxy-vip](https://github.com/vipshop/twemproxy-vip) - twemproxy maintained and used at vipshop. star: 39(until 2017/08/22). Lang: C.
 
+---
+## Redis Client
+* [hiredis-vip](https://github.com/vipshop/hiredis-vip) - Hiredis-vip is a C client library for the Redis database, supported redis cluster, fully contained and based on Hiredis. star: 91(until 2017/08/22). Lang: C.
 
 ---
 ## Redis Data Migration
@@ -131,4 +139,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add gosexy/redis on 2017/08/12
 * add medis on 2017/08/15
 * add qdb & redsync && cc on 2017/08/19
-* add redis-rdb-tools & redis-migration on 2017/08/22
+* add redis-rdb-tools & redis-migration & vire & twemproxy-vip & hiredis-vip on 2017/08/22
