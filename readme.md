@@ -65,6 +65,7 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * [redis-audit](https://github.com/snmaynard/redis-audit) - This script samples a number of the Redis keys in a database and then groups them with other similar looking keys. It then displays key metrics around those groups of keys to help you spot where efficiencies can be made in the memory usage of your Redis database.Warning: The script cannot be used with AWS Elasticache Redis instances, as the debug command is restricted. star: 114.
 * [redis_key_sizes.sh](https://gist.github.com/epicserve/5699837) - A simple script to print the size of all your Redis keys. star: 52.
 * [Datadog:how_to_collect/monitor_redis_metrics.md](https://github.com/AlexStocks/the-monitor/tree/master/redis) - Markdown files of Datadog : how to collect/monitor redis metrics. star: 37.
+* [redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools) - Rdbtools is a parser for Redis' dump.rdb files. The parser generates events similar to an xml sax parser, and is very efficient memory wise. star: 2113(until 2017/08/22). Lang: Python.
 
 ---
 ## Redis Admin Web & UI 
@@ -129,3 +130,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add gosexy/redis on 2017/08/12
 * add medis on 2017/08/15
 * add qdb & redsync && cc on 2017/08/19
+* add redis-rdb-tools on 2017/08/22
