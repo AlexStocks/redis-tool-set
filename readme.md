@@ -46,6 +46,7 @@ Table of Contents
 * [twemproxies](https://github.com/vipshop/twemproxies) - twemproxies ( nutcrackers ) is a multithread, fast and lightweight proxy for memcached and redis protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture. star: 2(until 2016/04/20).
 * [twemproxy-vip](https://github.com/vipshop/twemproxy-vip) - twemproxy maintained and used at vipshop. star: 39(until 2017/08/22). Lang: C.
 * [nredis-proxy](https://github.com/wxmclub/nredis-proxy) - a redis proxy based on netty. [arch design](https://mp.weixin.qq.com/s?__biz=MzI3MzEzMDI1OQ==&mid=2651816198&idx=1&sn=306153cb467010d2f5af31260ac6e694&chksm=f0dcd77ac7ab5e6c5f385756abc4853f8bccc1311c98120e3ce4c3abb9ab2c168b82a60d187b&mpshare=1&scene=1&srcid=0217Dk1nMM0pxGJQqvjug02Z&pass_ticket=seR%2BdnRh98xppQGWjIyfOL%2BpIIVEd1myAxSbNwoG7bNljwB2RhgnvuL1L%2F5V7tpy#rd). star: 6(until 2017/08/22). Lang: Java.
+* [predixy](github.com/joyieldInc/predixy) - A high performance and full features proxy for redis, support redis sentinel and redis cluster. star: 50(until 2017/08/27). Lang: C++.
 
 ---
 ## Redis Client
@@ -140,3 +141,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add medis on 2017/08/15
 * add qdb & redsync && cc on 2017/08/19
 * add redis-rdb-tools & redis-migration & vire & twemproxy-vip & hiredis-vip & nredis-proxy on 2017/08/22
+* add predixy on 2017/08/27
