@@ -34,6 +34,7 @@ Table of Contents
 * [xredis-server](https://github.com/0xsky/xredis-server) - redis-server is a redis server framework library write by C++, using this library you can develop redis protocol compatible server easily. xredis-server requires libevent. star: 46(until 2016/11/16).
 * [qdb](https://github.com/reborndb/qdb) - A fast, high availability, fully Redis compatible store engine. star: 287(until 2017/08/19).
 * [vire](https://github.com/vipshop/vire) - vire (pronounced "vip-redis") is a multithread redis(based on redis-3.2.0) maintains in vipshop. star: 110(until 2017/08/22). Lang: C.
+* [swapdb](https://github.com/JRHZRD/swapdb) - A redis compatiable storage which support data exchange between memory and disk. star: 46(until 2017/09/08). Lang: C.
 
 ---
 ## Redis Proxy
@@ -144,3 +145,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add redis-rdb-tools & redis-migration & vire & twemproxy-vip & hiredis-vip & nredis-proxy on 2017/08/22
 * add predixy on 2017/08/27
 * add onecache on 2017/09/04
+* add swapdb on 2017/09/08
