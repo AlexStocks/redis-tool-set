@@ -49,6 +49,7 @@ Table of Contents
 * [nredis-proxy](https://github.com/wxmclub/nredis-proxy) - a redis proxy based on netty. [arch design](https://mp.weixin.qq.com/s?__biz=MzI3MzEzMDI1OQ==&mid=2651816198&idx=1&sn=306153cb467010d2f5af31260ac6e694&chksm=f0dcd77ac7ab5e6c5f385756abc4853f8bccc1311c98120e3ce4c3abb9ab2c168b82a60d187b&mpshare=1&scene=1&srcid=0217Dk1nMM0pxGJQqvjug02Z&pass_ticket=seR%2BdnRh98xppQGWjIyfOL%2BpIIVEd1myAxSbNwoG7bNljwB2RhgnvuL1L%2F5V7tpy#rd). star: 6(until 2017/08/22). Lang: Java.
 * [predixy](https://github.com/joyieldInc/predixy) - A high performance and full features proxy for redis, support redis sentinel and redis cluster. star: 50(until 2017/08/27). Lang: C++.
 * [onecache](https://github.com/onexsoft/onecache) - OneCache a Redis protocol based distributed cache middleware, as a replacement of Twemproxy or Codis. Unlike twemproxy, OneCache can offer 500,000 or higher QPS for single instance with lower latency. star: 195(until 2017/09/04). Lang: C++.
+* [redis-twemproxy-agent](https://github.com/Stono/redis-twemproxy-agent) - A simple nodejs application which will connect to Redis-Sentinel and monitor for the master-change event. It will then update TwemProxy (nutcracker) and restart it. star: 83(until 2017/09/22). Lang: Js.
 
 ---
 ## Redis Client
@@ -146,3 +147,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add predixy on 2017/08/27
 * add onecache on 2017/09/04
 * add swapdb on 2017/09/08
+* add redis-twemproxy-agent on 2017/09/22
