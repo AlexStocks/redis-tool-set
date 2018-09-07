@@ -51,6 +51,7 @@ Table of Contents
 * [onecache](https://github.com/onexsoft/onecache) - OneCache a Redis protocol based distributed cache middleware, as a replacement of Twemproxy or Codis. Unlike twemproxy, OneCache can offer 500,000 or higher QPS for single instance with lower latency. star: 195(until 2017/09/04). Lang: C++.
 * [redis-twemproxy-agent](https://github.com/Stono/redis-twemproxy-agent) - A simple nodejs application which will connect to Redis-Sentinel and monitor for the master-change event. It will then update TwemProxy (nutcracker) and restart it. star: 83(until 2017/09/22). Lang: Js.
 * [r3proxy](https://github.com/ksarch-saas/r3proxy) - written by baidu tieba. a twemproxy with rediscluster support. Star: 13. Lang: C++.
+* [meitu/twemproxy](https://github.com/meitu/twemproxy) - written by [meitu](meitu.com). **meitu twemproxy** is a multi-process, fast and lightweight proxy for [memcached](http://www.memcached.org/) and [redis](http://redis.io/) protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture.Star: 37(until 2018/09/07). Lang: C++.
 
 ---
 ## Redis Client
@@ -128,28 +129,51 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 
 ---
 * written by Alex Stocks on 2016/03/22
+
 * add redmon & redispapa & django-redisboard on 2016/04/15
+
 * add Redsmin & RedisManager & RedisWeekly on 2016/04/19
+
 * add twemproxies & fastoredis on 2016/04/20
+
 * add redis cluster(codis & Pika) on 2016/05/12
+
 * add redigo & redi-go-cluster & redigomock & go-sentinel on 2016/06/09
+
 * add ardb & twemproxy-163 on 2016/09/02
+
 * add Pedis & redis-failover & miniredis & redeo & libredis & go-redis on 2016/09/23
+
 * add goatee & juggler & broadcaster & redisocket.v2 on 2016/10/02
+
 * add redis on 2016/10/03
+
 * add Go-Redis & Pushlet on 2016/10/24
+
 * add xredis-server on 2016/11/16
+
 * add x-pipe on 2017/07/01
+
 * add redisvo on 2017/08/10
+
 * add gosexy/redis on 2017/08/12
+
 * add medis on 2017/08/15
+
 * add qdb & redsync && cc on 2017/08/19
+
 * add redis-rdb-tools & redis-migration & vire & twemproxy-vip & hiredis-vip & nredis-proxy on 2017/08/22
+
 * add predixy on 2017/08/27
+
 * add onecache on 2017/09/04
+
 * add swapdb on 2017/09/08
+
 * add redis-twemproxy-agent on 2017/09/22
+
 * add ApsaraCache on 2017/10/14
+
 * add r3proxy on 2018/05/16
 
-  
+* add [meitu/twemproxy](https://github.com/meitu/twemproxy)  on 2018/09/07
