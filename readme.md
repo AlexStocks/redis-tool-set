@@ -19,12 +19,12 @@ Table of Contents
 ---
 ## Redis Cluster
 * [Codis](https://github.com/CodisLabs/codis) - Codis is a proxy based high performance Redis cluster solution written in Go. It is production-ready and widely used at wandoujia.com and many companies. star: 4177(until 2016/05/12).
-* [Pika](https://github.com/Qihoo360/pika) - [Pika](https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653547160&idx=1&sn=befd195e2aa788775aaf1cc3b6f6fab3&scene=1&srcid=05125RMahWYSgUb4fIUJYIj5&pass_ticket=fV%2BqHxDSZBGR5J2M0sWKaCnKGlnuoGkHfFfqcHa5mu0Lw4yA4wUZoRAqV7CQuMMk#rd) is a nosql compatible with redis protocol, it is developed by Qihoo's DBA and infrastructure team, and it is widely used in QiHoo. Pika is a persistent huge storage service , compatible with the vast majority of redis interfaces (details), including string, hash, list, zset, set and management interfaces. With the huge amount of data stored, redis may suffer for a capacity bottleneck, and pika was born for solving it. Except huge storage capacity, pika also support master-slave mode by slaveof command, including full and partial synchronization. star:85(until 2016/05/12).
 * [x-pipe](https://github.com/ctripcorp/x-pipe) -  Redis 多数据中心集群，一是为了提升可用性，解决数据中心 DR(Disaster Recovery) 问题，二是提升访问性能，每个数据中心可以读取当前数据中心的数据，无需跨机房读数据。star:284(until 2017/07/01).
 * [cc](https://github.com/ksarch-saas/cc) - This is a Redis Cluster Controller to control the state of the cluster nodes and provide http api and tools(both command line and web ui). Star: 17(until 2017/08/19). Lang: go & Js.
 
 ---
 ## Redis Variety
+* [Pika](https://github.com/Qihoo360/pika) - [Pika](https://mp.weixin.qq.com/s/6wIVyRc1krB5uUmp_O6VKA) is a nosql compatible with redis protocol, it is developed by Qihoo's DBA and infrastructure team, and it is widely used in QiHoo. Pika is a persistent huge storage service , compatible with the vast majority of redis interfaces (details), including string, hash, list, zset, set and management interfaces. With the huge amount of data stored, redis may suffer for a capacity bottleneck, and pika was born for solving it. Except huge storage capacity, pika also support master-slave mode by slaveof command, including full and partial synchronization. star:85(until 2016/05/12). Lang: C++.
 * [webdis](https://github.com/nicolasff/webdis) - A very simple web server providing an HTTP interface to Redis. It uses hiredis, jansson, libevent, and [http-parser](https://github.com/nodejs/http-parser). star: 1595.
 * [ardb](https://github.com/yinqiwen/ardb) - A redis protocol compatible nosql, it support multiple storage engines as backend like Google's LevelDB, Facebook's RocksDB, OpenLDAP's LMDB, PerconaFT, WiredTiger, ForestDB. star 739(until 2016/09/02).
 * [Pedis](https://github.com/fastio/pedis) - NoSQL data store using the SEASTAR framework, compatible with REDIS. star:169(until 2016/09/23)
@@ -36,6 +36,9 @@ Table of Contents
 * [vire](https://github.com/vipshop/vire) - vire (pronounced "vip-redis") is a multithread redis(based on redis-3.2.0) maintains in vipshop. star: 110(until 2017/08/22). Lang: C.
 * [swapdb](https://github.com/JRHZRD/swapdb) - A redis compatiable storage which support data exchange between memory and disk. star: 46(until 2017/09/08). Lang: C.
 * [ApsaraCache](https://github.com/alibaba/ApsaraCache) - ApsaraCache is based on the Redis official release 4.0 and has many features and performance enhancements. ApsaraCache has proven to be very stable and efficient in production environment. star: 147(until 2017/10/15). Lang: C.
+* [titan](https://github.com/meitu/titan) - A distributed implementation of Redis compatible layer based on [TiKV](https://github.com/tikv/tikv/). star: 553(until 2018/12/12). Lang: Go.
+
+
 ---
 ## Redis Proxy
 * [twemproxy](https://github.com/twitter/twemproxy) - A fast, light-weight proxy for memcached and redis. star: 5123.
@@ -177,3 +180,5 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 * add r3proxy on 2018/05/16
 
 * add [meitu/twemproxy](https://github.com/meitu/twemproxy)  on 2018/09/07
+
+* add [titan](https://github.com/meitu/titan) on 2018/12/12
