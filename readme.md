@@ -8,6 +8,7 @@ Table of Contents
   * [Redis Cluster](#redis-cluster)
   * [Redis Variety](#redis-variety)
   * [Redis Proxy](#redis-proxy)
+  * [Redis Module](#redis-module)
   * [Redis Client](#redis-client)
   * [Redis Data Migration](#redis-data-migration)
   * [Redis Monitor](#redis-monitor)
@@ -57,9 +58,25 @@ Table of Contents
 * [r3proxy](https://github.com/ksarch-saas/r3proxy) - written by baidu tieba. a twemproxy with rediscluster support. Star: 13. Lang: C++.
 * [meitu/twemproxy](https://github.com/meitu/twemproxy) - written by [meitu](meitu.com). **meitu twemproxy** is a multi-process, fast and lightweight proxy for [memcached](http://www.memcached.org/) and [redis](http://redis.io/) protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture.Star: 37(until 2018/09/07). Lang: C++.
 
+| Project Name | Stars | Lang | Description |
+| :----------- | :---- | :--- | :---------- |
+| [aster](https://github.com/wayslog/aster) | 41 | Rust | 一个轻量强大的实现了memcache/redis协议的缓存代理 |
+
+---
+## Redis Module
+
+| Project Name | Stars | Lang | Description |
+| :----------- | :---- | :--- | :---------- |
+| [rediSQL](https://github.com/RedBeardLab/rediSQL) | 890 | Rust | 于雨推荐：一个Redis module，可在Redis内实现标准SQL全操作，每秒可执行13万次插入操作 |
+| [redis-storage](https://github.com/qiye/redis-storage) | 264 | Lua | 把leveldb嵌入到redis实现真正的数据持久存储 |
+
 ---
 ## Redis Client
-* [hiredis-vip](https://github.com/vipshop/hiredis-vip) - Hiredis-vip is a C client library for the Redis database, supported redis cluster, fully contained and based on Hiredis. star: 91(until 2017/08/22). Lang: C.
+
+| Project Name | Stars | Lang | Description |
+| :----------- | :---- | :--- | :---------- |
+| [hiredis-vip](https://github.com/vipshop/hiredis-vip) | 169(2019/03/24) | C | vip is a C client library for the Redis database, supported redis cluster, fully contained and based on Hiredis | 
+| [redispipe](https://github.com/joomcode/redispipe) | 54(2019/03/24) | Go | High-throughput Redis client for Go with implicit pipelining |
 
 ---
 ## Redis Data Migration
@@ -161,3 +178,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 >- add [meitu/twemproxy](https://github.com/meitu/twemproxy)  on 2018/09/07
 >- add [titan](https://github.com/meitu/titan) on 2018/12/12
 >- add [KeyDB](https://github.com/JohnSully/KeyDB) & [redis-full-check](https://github.com/aliyun/redis-full-check) on 2019/03/13
+>- add [rediSQL](https://github.com/RedBeardLab/rediSQL) & [aster](https://github.com/wayslog/aster) on 2019/03/24
