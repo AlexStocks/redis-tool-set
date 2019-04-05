@@ -60,7 +60,8 @@ Table of Contents
 
 | Project Name | Stars | Lang | Description |
 | :----------- | :---- | :--- | :---------- |
-| [aster](https://github.com/wayslog/aster) | 41 | Rust | 一个轻量强大的实现了memcache/redis协议的缓存代理 |
+| [aster](https://github.com/wayslog/aster) | 41 | Rust | Aster is a light, fast and powerful cache proxy written in rust. the same with twemproxy but support multi-threads.  Make redis cluster can be used to simple redis client.  |
+| [undermoon](https://github.com/doyoubi/undermoon) | 63 | Rust | Aims to provide a Redis cluster solution based on Redis Cluster Protocol supporting multiple tenants and easy scaling. |
 
 ---
 ## Redis Module
@@ -179,3 +180,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 >- add [titan](https://github.com/meitu/titan) on 2018/12/12
 >- add [KeyDB](https://github.com/JohnSully/KeyDB) & [redis-full-check](https://github.com/aliyun/redis-full-check) on 2019/03/13
 >- add [rediSQL](https://github.com/RedBeardLab/rediSQL) & [aster](https://github.com/wayslog/aster) on 2019/03/24
+>- add [undermoon](https://github.com/doyoubi/undermoon) on 2019/04/05
