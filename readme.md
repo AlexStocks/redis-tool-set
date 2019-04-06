@@ -19,9 +19,12 @@ Table of Contents
 
 ---
 ## Redis Cluster
-* [Codis](https://github.com/CodisLabs/codis) - Codis is a proxy based high performance Redis cluster solution written in Go. It is production-ready and widely used at wandoujia.com and many companies. star: 4177(until 2016/05/12).
-* [x-pipe](https://github.com/ctripcorp/x-pipe) -  Redis 多数据中心集群，一是为了提升可用性，解决数据中心 DR(Disaster Recovery) 问题，二是提升访问性能，每个数据中心可以读取当前数据中心的数据，无需跨机房读数据。star:284(until 2017/07/01).
-* [cc](https://github.com/ksarch-saas/cc) - This is a Redis Cluster Controller to control the state of the cluster nodes and provide http api and tools(both command line and web ui). Star: 17(until 2017/08/19). Lang: go & Js.
+
+| Project Name | Stars | Lang | Description |
+| :----------- | :---- | :--- | :---------- |
+| [Codis](https://github.com/CodisLabs/codis) | 9113(2019/04/06) | Go | Codis is a proxy based high performance Redis cluster solution written in Go. It is production-ready and widely used at wandoujia.com and many companies. |
+| [x-pipe](https://github.com/ctripcorp/x-pipe) | 791 | Java | Redis 多数据中心集群，一是为了提升可用性，解决数据中心 DR(Disaster Recovery) 问题，二是提升访问性能，每个数据中心可以读取当前数据中心的数据，无需跨机房读数据。|
+| [cc](https://github.com/ksarch-saas/cc) | 32(2019/04/06) | Go & Js | This is a Redis Cluster Controller to control the state of the cluster nodes and provide http api and tools(both command line and web ui). Star: 17(until 2017/08/19). | 
 
 ---
 ## Redis Variety
@@ -78,14 +81,19 @@ Table of Contents
 | :----------- | :---- | :--- | :---------- |
 | [hiredis-vip](https://github.com/vipshop/hiredis-vip) | 169(2019/03/24) | C | vip is a C client library for the Redis database, supported redis cluster, fully contained and based on Hiredis | 
 | [redispipe](https://github.com/joomcode/redispipe) | 54(2019/03/24) | Go | High-throughput Redis client for Go with implicit pipelining |
+| [lettuce-core](https://github.com/lettuce-io/lettuce-core) | 2358 | Java | Lettuce is a scalable thread-safe Redis client for synchronous, asynchronous and reactive usage. Multiple threads may share one connection if they avoid blocking and transactional operations such as BLPOP and MULTI/EXEC. Lettuce is built with netty. Supports advanced Redis features such as Sentinel, Cluster, Pipelining, Auto-Reconnect and Redis data models. |
 
 ---
 ## Redis Data Migration
-* [redis-port](https://github.com/CodisLabs/redis-port) - parse redis rdb file, sync data between redis master and slave. star: 80.
-* [rdd](https://github.com/r043v/rdd) - redis database dumper, this tool can be used to dump a redis database, work on dump and put dump into redis this tool not use .rdb file! It's a beta software, use it at your own risk! star: 58.
-* [redis-migrate-tool](https://github.com/vipshop/redis-migrate-tool) - redis-migrate-tool is a convenient and useful tool for migrating data between redis. It is based on redis replication. In the process of migrating data, the source redis also can provide services for users. star: 19.
-* [redis rdb file splitter](http://blog.nosqlfan.com/html/4092.html) - In this Chinese blog you will get a script to split Redis rdb db file.
-* [redis-migration](https://github.com/helifu/redis-migration) - redis-migration is a fast, light-weight migration tool for redis. Just add redis-migration.c to the redis sources. We scale out our redis clusters by this tool. Star: 35(until 2017/08/22). Lang: C.
+
+| Project Name | Stars | Lang | Description |
+| :----------- | :---- | :--- | :---------- |
+| [RedisShake](https://github.com/alibaba/RedisShake) | 110 | Go | Redis-shake is a tool for synchronizing data between two redis databases |
+| [redis-port](https://github.com/CodisLabs/redis-port) | 110 | C | parse redis rdb file, sync data between redis master and slave |
+| [rdd](https://github.com/r043v/rdd) | 76 | C | redis database dumper, this tool can be used to dump a redis database, work on dump and put dump into redis this tool not use .rdb file! It's a beta software, use it at your own risk! |
+| [redis-migrate-tool](https://github.com/vipshop/redis-migrate-tool) | 560 | C | redis-migrate-tool is a convenient and useful tool for migrating data between redis. It is based on redis replication. In the process of migrating data, the source redis also can provide services for users. |
+| [redis rdb file splitter](http://blog.nosqlfan.com/html/4092.html) | | | In this Chinese blog you will get a script to split Redis rdb db file. |
+| [redis-migration](https://github.com/helifu/redis-migration) | 52 | C |  redis-migration is a fast, light-weight migration tool for redis. Just add redis-migration.c to the redis sources. We scale out our redis clusters by this tool. Star: 35(until 2017/08/22). |
 
 ---
 ## Redis Monitor
@@ -181,3 +189,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 >- add [KeyDB](https://github.com/JohnSully/KeyDB) & [redis-full-check](https://github.com/aliyun/redis-full-check) on 2019/03/13
 >- add [rediSQL](https://github.com/RedBeardLab/rediSQL) & [aster](https://github.com/wayslog/aster) on 2019/03/24
 >- add [undermoon](https://github.com/doyoubi/undermoon) on 2019/04/05
+>- add [RedisShake](https://github.com/alibaba/RedisShake) & [lettuce-core](https://github.com/lettuce-io/lettuce-core) on 2019/04/06
