@@ -115,6 +115,12 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 
 ---
 ## Redis Admin Web & UI
+
+
+| Project Name | Stars | Lang | Description |
+| :----------- | :---- | :--- | :---------- |
+| [overlord](https://github.com/bilibili/overlord) | 219(until 2019/04/10) | Go | 哔哩哔哩基于Go语言编写的基于memcache和redis&redis-cluster高可用的缓存服务解决方案 |
+
 * [RedisDesktopManager](https://github.com/uglide/RedisDesktopManager) - Redis Desktop Manager (aka RDM)— is a cross-platform open source Redis DB management tool (i.e. Admin GUI). Redis Desktop Manager developed to replace hundreds of slow and ugly tools for redis. star: 2557.
 * [redmon](https://github.com/steelThread/redmon) - A web interface for managing redis: cli, admin, and live monitoring. Simple sinatra based dashboard for redis. After seeing the fnordmetric project I was inspired to write this. Some of the ideas there have be carried over here. star: 1303 (until 2016/04/15).
 * [cachecloud](https://github.com/sohutv/cachecloud) - A private redis cloud platform developed by Sohu Inc. star: 717.
@@ -190,3 +196,4 @@ In addition, rdbtools provides utilities to :Generate a Memory Report of your da
 >- add [rediSQL](https://github.com/RedBeardLab/rediSQL) & [aster](https://github.com/wayslog/aster) on 2019/03/24
 >- add [undermoon](https://github.com/doyoubi/undermoon) on 2019/04/05
 >- add [RedisShake](https://github.com/alibaba/RedisShake) & [lettuce-core](https://github.com/lettuce-io/lettuce-core) on 2019/04/06
+>- add [overlord](https://github.com/bilibili/overlord) on 2019/04/10
