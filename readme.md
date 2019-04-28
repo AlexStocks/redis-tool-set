@@ -87,6 +87,7 @@ Table of Contents
 | [hiredis-vip](https://github.com/vipshop/hiredis-vip) | 169(2019/03/24) | C | vip is a C client library for the Redis database, supported redis cluster, fully contained and based on Hiredis | 
 | [redispipe](https://github.com/joomcode/redispipe) | 54(2019/03/24) | Go | High-throughput Redis client for Go with implicit pipelining |
 | [lettuce-core](https://github.com/lettuce-io/lettuce-core) | 2358 | Java | Lettuce is a scalable thread-safe Redis client for synchronous, asynchronous and reactive usage. Multiple threads may share one connection if they avoid blocking and transactional operations such as BLPOP and MULTI/EXEC. Lettuce is built with netty. Supports advanced Redis features such as Sentinel, Cluster, Pipelining, Auto-Reconnect and Redis data models. |
+| [redis-tui](https://github.com/mylxsw/redis-tui) | 261(2019/04/28) | Go | A Redis Text-based UI client in CLI | 
 
 ---
 ## Redis Data Migration
@@ -209,3 +210,4 @@ Table of Contents
 >- add [undermoon](https://github.com/doyoubi/undermoon) on 2019/04/05
 >- add [RedisShake](https://github.com/alibaba/RedisShake) & [lettuce-core](https://github.com/lettuce-io/lettuce-core) on 2019/04/06
 >- add [overlord](https://github.com/bilibili/overlord) on 2019/04/10
+>- add [redis-tui](https://github.com/mylxsw/redis-tui) on 2019/04/28
