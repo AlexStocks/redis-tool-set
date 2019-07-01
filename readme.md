@@ -45,6 +45,7 @@ Table of Contents
 | [ApsaraCache](https://github.com/alibaba/ApsaraCache) | 848 | C |ApsaraCache is based on the Redis official release 4.0 and has many features and performance enhancements. ApsaraCache has proven to be very stable and efficient in production environment. |
 | [titan](https://github.com/distributedio/titan) | 658 | Go | A distributed implementation of Redis compatible layer based on [TiKV](https://github.com/tikv/tikv/). |
 | [KeyDB](https://github.com/JohnSully/KeyDB) | 1459 | C++ | a high performance fork of Redis focussing on multithreading, memory efficiency, and high throughput. In addition to multithreading KeyDB also has features only available in Redis Enterprise such as FLASH storage support, and some not available at all such as direct backup to AWS S3. |
+| [rsedis](https://github.com/seppo0010/rsedis) | 1218 | Rust | Redis re-implemented in Rust |
 
 
 ---
@@ -211,3 +212,4 @@ Table of Contents
 >- add [RedisShake](https://github.com/alibaba/RedisShake) & [lettuce-core](https://github.com/lettuce-io/lettuce-core) on 2019/04/06
 >- add [overlord](https://github.com/bilibili/overlord) on 2019/04/10
 >- add [redis-tui](https://github.com/mylxsw/redis-tui) on 2019/04/28
+>- add [rsedis](https://github.com/seppo0010/rsedis) on 2019/07/01
