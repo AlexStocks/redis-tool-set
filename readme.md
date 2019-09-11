@@ -80,7 +80,8 @@ Table of Contents
 | [rediSQL](https://github.com/RedBeardLab/rediSQL) | 890 | Rust | Redis module that provides a completely functional SQL database |
 | [redis-storage](https://github.com/qiye/redis-storage) | 264 | Lua | 把leveldb嵌入到redis实现真正的数据持久存储 |
 | [RedisJSON](https://github.com/RedisJSON/RedisJSON) | 867 | C | a Redis module that implements ECMA-404 The JSON Data Interchange Standard as a native data type. It allows storing, updating and fetching JSON values from Redis keys (documents). |
-
+| [RedisTimeSeries](https://github.com/RedisTimeSeries/RedisTimeSeries) | 208 | C | a Redis Module adding a Time Series data structure to Redis |
+ 
 ---
 ## Redis Client
 
@@ -215,3 +216,4 @@ Table of Contents
 >- add [redis-tui](https://github.com/mylxsw/redis-tui) on 2019/04/28
 >- add [rsedis](https://github.com/seppo0010/rsedis) on 2019/07/01
 >- add [RedisJSON](https://github.com/RedisJSON/RedisJSON) on 2019/09/05
+>- add [RedisTimeSeries](https://github.com/RedisTimeSeries/RedisTimeSeries) on 2019/09/11
