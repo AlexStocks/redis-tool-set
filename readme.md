@@ -91,7 +91,7 @@ Table of Contents
 | [redispipe](https://github.com/joomcode/redispipe) | 54(2019/03/24) | Go | High-throughput Redis client for Go with implicit pipelining |
 | [lettuce-core](https://github.com/lettuce-io/lettuce-core) | 2358 | Java | Lettuce is a scalable thread-safe Redis client for synchronous, asynchronous and reactive usage. Multiple threads may share one connection if they avoid blocking and transactional operations such as BLPOP and MULTI/EXEC. Lettuce is built with netty. Supports advanced Redis features such as Sentinel, Cluster, Pipelining, Auto-Reconnect and Redis data models. |
 | [redis-tui](https://github.com/mylxsw/redis-tui) | 261(2019/04/28) | Go | A Redis Text-based UI client in CLI |
-| [hiredis-py](https://github.com/redis/hiredis-py) | Python | Python extension that wraps protocol parsing code in hiredis. It primarily speeds up parsing of multi bulk replies. |
+| [hiredis-py](https://github.com/redis/hiredis-py) | 336(2019/10/30) |  Python | Python extension that wraps protocol parsing code in hiredis. It primarily speeds up parsing of multi bulk replies. |
 
 ---
 ## Redis Data Migration
