@@ -90,7 +90,7 @@ Table of Contents
 | [hiredis-vip](https://github.com/vipshop/hiredis-vip) | 169(2019/03/24) | C | vip is a C client library for the Redis database, supported redis cluster, fully contained and based on Hiredis | 
 | [redispipe](https://github.com/joomcode/redispipe) | 54(2019/03/24) | Go | High-throughput Redis client for Go with implicit pipelining |
 | [lettuce-core](https://github.com/lettuce-io/lettuce-core) | 2358 | Java | Lettuce is a scalable thread-safe Redis client for synchronous, asynchronous and reactive usage. Multiple threads may share one connection if they avoid blocking and transactional operations such as BLPOP and MULTI/EXEC. Lettuce is built with netty. Supports advanced Redis features such as Sentinel, Cluster, Pipelining, Auto-Reconnect and Redis data models. |
-| [redis-tui](https://github.com/mylxsw/redis-tui) | 261(2019/04/28) | Go | A Redis Text-based UI client in CLI | 
+| [redis-tui](https://github.com/mylxsw/redis-tui) | 261(2019/04/28) | Go | A Redis Text-based UI client in CLI |
 | [hiredis-py](https://github.com/redis/hiredis-py) | Python | Python extension that wraps protocol parsing code in hiredis. It primarily speeds up parsing of multi bulk replies. |
 
 ---
@@ -170,8 +170,8 @@ Table of Contents
 | Project Name | Stars(until 2019/04/16) | Lang | Description |
 | :----------- | :---- | :--- | :---------- |
 | [disgear](https://github.com/yangbutao/disgear) | 77 | Java | Disgear is a distributed cache based on redis, support data segmentation on multiple machines, support HA, write&read separation ,and automatic election support the master node failure. There is also a [Chinese translation version](http://www.rigongyizu.com/distributed-locks-using-redis/) of this blog. |
-| [Distributed locks using Redis](https://engineering.gosquared.com/distributed-locks-using-redis) ||| How to create reliable locks for a distributed architecture. |
-| [Redis lock algorithm and implementation list: Distributed locks with Redis](https://redis.io/topics/distlock) |||  |
+| [Distributed locks using Redis](https://engineering.gosquared.com/distributed-locks-using-redis) | | | How to create reliable locks for a distributed architecture. |
+| [Redis lock algorithm and implementation list: Distributed locks with Redis](https://redis.io/topics/distlock) | | |  |
 | [redsync](https://github.com/go-redsync/redsync) | 358 | Go | Distributed mutual exclusion lock using Redis for Go. |
 
 ---
@@ -179,7 +179,7 @@ Table of Contents
 | Project Name | Stars(until 2019/04/16) | Lang | Description |
 | :----------- | :---- | :--- | :---------- |
 | [awesome-redis](https://github.com/zhemingwang/awesome-redis) | 330 | | A curated list of amazingly awesome redis and redis ecosystem resources. |
-| [RedisWeekly](http://redisweekly.com) ||| A once–weekly e-mail round-up of Redis news, articles, tools and libraries followed by more than 5 000 Redis developers. |
+| [RedisWeekly](http://redisweekly.com) | | | A once–weekly e-mail round-up of Redis news, articles, tools and libraries followed by more than 5 000 Redis developers. |
 
 ---
 * written by Alex Stocks on 2016/03/22
