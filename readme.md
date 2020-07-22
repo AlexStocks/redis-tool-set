@@ -164,6 +164,7 @@ Table of Contents
 | [redis](https://github.com/go-redis/redis) | 5486 | Go | Redis client for Golang. |
 | [Go-Redis](https://github.com/alphazero/Go-Redis) | 389 | Go | Google Go Client and Connectors for Redis. |
 | [gosexy/redis](https://github.com/gosexy/redis) | 168 | Go | Redis client for Go that maps the full redis command list into equivalent Go functions. |
+| [go-resp3](https://github.com/stfnmllr/go-resp3) | 11 | Go | Google Go Redis RESP3 client |
 
 ---
 ## Redis Based Lock&Cache
@@ -219,3 +220,4 @@ Table of Contents
 >- add [RedisJSON](https://github.com/RedisJSON/RedisJSON) on 2019/09/05
 >- add [RedisTimeSeries](https://github.com/RedisTimeSeries/RedisTimeSeries) on 2019/09/11
 >- add [hiredis-py](https://github.com/redis/hiredis-py) on 2019/09/17
+>- add [go-resp3](https://github.com/stfnmllr/go-resp3)  on 2020/07/22
