@@ -47,6 +47,7 @@ Table of Contents
 | [KeyDB](https://github.com/JohnSully/KeyDB) | 1459 | C++ | a high performance fork of Redis focussing on multithreading, memory efficiency, and high throughput. In addition to multithreading KeyDB also has features only available in Redis Enterprise such as FLASH storage support, and some not available at all such as direct backup to AWS S3. |
 | [rsedis](https://github.com/seppo0010/rsedis) | 1218 | Rust | Redis re-implemented in Rust |
 | [redis-windows](https://github.com/ServiceStack/redis-windows) | 2400 | C | Vagrant redis configuration and the binary releases of MS Open Tech redis port of windows |
+| [Tendis](https://github.com/tencent/Tendis) | 717 | C | a high-performance distributed storage system fully compatible with the Redis protocol. Using RocksDB as storage engine. All data is stored in RocksDB in a specific format, supporting PB-level storage capacity. |
 
 
 ---
@@ -223,3 +224,4 @@ Table of Contents
 >- add [hiredis-py](https://github.com/redis/hiredis-py) on 2019/09/17
 >- add [go-resp3](https://github.com/stfnmllr/go-resp3)  on 2020/07/22
 > add [redis-windows](https://github.com/ServiceStack/redis-windows)  on 2020/08/20
+> add [Tendis](https://github.com/tencent/Tendis) on 2020/12/24
