@@ -94,6 +94,7 @@ Table of Contents
 | [lettuce-core](https://github.com/lettuce-io/lettuce-core) | 2358 | Java | Lettuce is a scalable thread-safe Redis client for synchronous, asynchronous and reactive usage. Multiple threads may share one connection if they avoid blocking and transactional operations such as BLPOP and MULTI/EXEC. Lettuce is built with netty. Supports advanced Redis features such as Sentinel, Cluster, Pipelining, Auto-Reconnect and Redis data models. |
 | [redis-tui](https://github.com/mylxsw/redis-tui) | 261(2019/04/28) | Go | A Redis Text-based UI client in CLI |
 | [hiredis-py](https://github.com/redis/hiredis-py) | 336(2019/10/30) |  Python | Python extension that wraps protocol parsing code in hiredis. It primarily speeds up parsing of multi bulk replies. |
+| [redis-rs](https://github.com/mitsuhiko/redis-rs) | 2000(2021/05/29) | Rust | a high level redis library for Rust. It provides convenient access to all Redis functionality through a very flexible but low-level API. It uses a customizable type conversion trait so that any operation can return results in just the type you are expecting. This makes for a very pleasant development experience. |
 
 ---
 ## Redis Data Migration
@@ -225,3 +226,4 @@ Table of Contents
 >- add [go-resp3](https://github.com/stfnmllr/go-resp3)  on 2020/07/22
 > add [redis-windows](https://github.com/ServiceStack/redis-windows)  on 2020/08/20
 > add [Tendis](https://github.com/tencent/Tendis) on 2020/12/24
+> add [redis-rs](https://github.com/mitsuhiko/redis-rs) on 2021/05/29
