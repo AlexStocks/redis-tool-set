@@ -25,6 +25,7 @@ Table of Contents
 | [Codis](https://github.com/CodisLabs/codis) | 9113(2019/04/06) | Go | Codis is a proxy based high performance Redis cluster solution written in Go. It is production-ready and widely used at wandoujia.com and many companies. |
 | [x-pipe](https://github.com/ctripcorp/x-pipe) | 791 | Java | Redis 多数据中心集群，一是为了提升可用性，解决数据中心 DR(Disaster Recovery) 问题，二是提升访问性能，每个数据中心可以读取当前数据中心的数据，无需跨机房读数据。|
 | [cc](https://github.com/ksarch-saas/cc) | 32(2019/04/06) | Go & Js | This is a Redis Cluster Controller to control the state of the cluster nodes and provide http api and tools(both command line and web ui). Star: 17(until 2017/08/19). | 
+| [godis](https://github.com/HDT3213/godis) | 629 | Go | Godis is a golang implementation of Redis Server, which intents to provide an example of writing a high concurrent middleware using golang. |
 
 ---
 ## Redis Variety
@@ -227,3 +228,4 @@ Table of Contents
 > add [redis-windows](https://github.com/ServiceStack/redis-windows)  on 2020/08/20
 > add [Tendis](https://github.com/tencent/Tendis) on 2020/12/24
 > add [redis-rs](https://github.com/mitsuhiko/redis-rs) on 2021/05/29
+> add [godis](https://github.com/HDT3213/godis) on 2021/06/22
