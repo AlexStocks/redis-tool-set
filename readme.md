@@ -126,7 +126,7 @@ Table of Contents
 | [redis_key_sizes.sh](https://gist.github.com/epicserve/5699837) | 125 | shell | A simple script to print the size of all your Redis keys. |
 | [redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools) | 3103 | Python | Rdbtools is a parser for Redis' dump.rdb files. The parser generates events similar to an xml sax parser, and is very efficient memory wise. |
 | [redis-full-check](https://github.com/alibaba/RedisFullCheck) | 76 | Go | Redis-full-check is developed and maintained by NoSQL Team in Alibaba-Cloud Database department. Redis-full-check performs full data verification by comparing the data of the source database and the destination database. |
-
+| [redis-inventory](https://github.com/obukhov/redis-inventory) | 58 | Go |  Redis inventory is a tool to analyse Redis memory usage by key patterns and displaying it hierarchically. The name is inspired by "Disk Inventory X" tool doing similar analysis for disk usage. |
 
 ---
 ## Redis Admin Web & UI
@@ -229,3 +229,4 @@ Table of Contents
 > add [Tendis](https://github.com/tencent/Tendis) on 2020/12/24
 > add [redis-rs](https://github.com/mitsuhiko/redis-rs) on 2021/05/29
 > add [godis](https://github.com/HDT3213/godis) on 2021/06/22
+> add [redis-inventory](https://github.com/obukhov/redis-inventory) on 2021/09/16
