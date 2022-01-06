@@ -146,6 +146,7 @@ Table of Contents
 | [RedisManager](https://github.com/giuseppesalvo/RedisManager) | 10 | Swift | Simple Mac Application to manage Redis Server.  |
 | [redisvo](https://github.com/taomin597715379/redisvo) | 27 | JavaScript | a web-based redis data visualization tool。|
 | [medis](https://github.com/luin/medis) | 7352 | JavaScript |  Medis is a beautiful, easy-to-use Redis management application built on the modern web with Electron, React, and Redux. It's powered by many awesome Node.js modules, especially ioredis and ssh2. |
+| [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) | 18000 | JavaScript | A faster, better and more stable redis desktop manager [GUI client], compatible with Linux, Windows, Mac. What's more, it won't crash when loading massive keys. |
 
 ---
 ## Redis Golang Packages
@@ -230,3 +231,4 @@ Table of Contents
 > add [redis-rs](https://github.com/mitsuhiko/redis-rs) on 2021/05/29
 > add [godis](https://github.com/HDT3213/godis) on 2021/06/22
 > add [redis-inventory](https://github.com/obukhov/redis-inventory) on 2021/09/16
+> add [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) on 2022/01/05
