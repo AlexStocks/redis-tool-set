@@ -24,7 +24,7 @@ Table of Contents
 | :----------- | :---- | :--- | :---------- |
 | [Codis](https://github.com/CodisLabs/codis) | 9113(2019/04/06) | Go | Codis is a proxy based high performance Redis cluster solution written in Go. It is production-ready and widely used at wandoujia.com and many companies. |
 | [x-pipe](https://github.com/ctripcorp/x-pipe) | 791 | Java | Redis 多数据中心集群，一是为了提升可用性，解决数据中心 DR(Disaster Recovery) 问题，二是提升访问性能，每个数据中心可以读取当前数据中心的数据，无需跨机房读数据。|
-| [cc](https://github.com/ksarch-saas/cc) | 32(2019/04/06) | Go & Js | This is a Redis Cluster Controller to control the state of the cluster nodes and provide http api and tools(both command line and web ui). Star: 17(until 2017/08/19). | 
+| [cc](https://github.com/ksarch-saas/cc) | 32(2019/04/06) | Go & Js | This is a Redis Cluster Controller to control the state of the cluster nodes and provide http api and tools(both command line and web ui). Star: 17(until 2017/08/19). |
 | [godis](https://github.com/HDT3213/godis) | 629 | Go | Godis is a golang implementation of Redis Server, which intents to provide an example of writing a high concurrent middleware using golang. |
 
 ---
@@ -84,13 +84,13 @@ Table of Contents
 | [redis-storage](https://github.com/qiye/redis-storage) | 264 | Lua | 把leveldb嵌入到redis实现真正的数据持久存储 |
 | [RedisJSON](https://github.com/RedisJSON/RedisJSON) | 867 | C | a Redis module that implements ECMA-404 The JSON Data Interchange Standard as a native data type. It allows storing, updating and fetching JSON values from Redis keys (documents). |
 | [RedisTimeSeries](https://github.com/RedisTimeSeries/RedisTimeSeries) | 208 | C | a Redis Module adding a Time Series data structure to Redis |
- 
+
 ---
 ## Redis Client
 
 | Project Name | Stars | Lang | Description |
 | :----------- | :---- | :--- | :---------- |
-| [hiredis-vip](https://github.com/vipshop/hiredis-vip) | 169(2019/03/24) | C | vip is a C client library for the Redis database, supported redis cluster, fully contained and based on Hiredis | 
+| [hiredis-vip](https://github.com/vipshop/hiredis-vip) | 169(2019/03/24) | C | vip is a C client library for the Redis database, supported redis cluster, fully contained and based on Hiredis |
 | [redispipe](https://github.com/joomcode/redispipe) | 54(2019/03/24) | Go | High-throughput Redis client for Go with implicit pipelining |
 | [lettuce-core](https://github.com/lettuce-io/lettuce-core) | 2358 | Java | Lettuce is a scalable thread-safe Redis client for synchronous, asynchronous and reactive usage. Multiple threads may share one connection if they avoid blocking and transactional operations such as BLPOP and MULTI/EXEC. Lettuce is built with netty. Supports advanced Redis features such as Sentinel, Cluster, Pipelining, Auto-Reconnect and Redis data models. |
 | [redis-tui](https://github.com/mylxsw/redis-tui) | 261(2019/04/28) | Go | A Redis Text-based UI client in CLI |
@@ -226,9 +226,9 @@ Table of Contents
 >- add [RedisTimeSeries](https://github.com/RedisTimeSeries/RedisTimeSeries) on 2019/09/11
 >- add [hiredis-py](https://github.com/redis/hiredis-py) on 2019/09/17
 >- add [go-resp3](https://github.com/stfnmllr/go-resp3)  on 2020/07/22
-> add [redis-windows](https://github.com/ServiceStack/redis-windows)  on 2020/08/20
-> add [Tendis](https://github.com/tencent/Tendis) on 2020/12/24
-> add [redis-rs](https://github.com/mitsuhiko/redis-rs) on 2021/05/29
-> add [godis](https://github.com/HDT3213/godis) on 2021/06/22
-> add [redis-inventory](https://github.com/obukhov/redis-inventory) on 2021/09/16
-> add [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) on 2022/01/05
+>- add [redis-windows](https://github.com/ServiceStack/redis-windows)  on 2020/08/20
+>- add [Tendis](https://github.com/tencent/Tendis) on 2020/12/24
+>- add [redis-rs](https://github.com/mitsuhiko/redis-rs) on 2021/05/29
+>- add [godis](https://github.com/HDT3213/godis) on 2021/06/22
+>- add [redis-inventory](https://github.com/obukhov/redis-inventory) on 2021/09/16
+>- add [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) on 2022/01/05
