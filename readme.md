@@ -17,6 +17,7 @@ Table of Contents
   * [Redis Based Lock&amp;Cache](#redis-based-lockcache)
   * [Redis Ecosystem](#redis-ecosystem)
 
+
 ---
 ## Redis Cluster
 
@@ -170,6 +171,7 @@ Table of Contents
 | [Go-Redis](https://github.com/alphazero/Go-Redis) | 389 | Go | Google Go Client and Connectors for Redis. |
 | [gosexy/redis](https://github.com/gosexy/redis) | 168 | Go | Redis client for Go that maps the full redis command list into equivalent Go functions. |
 | [go-resp3](https://github.com/stfnmllr/go-resp3) | 11 | Go | Google Go Redis RESP3 client |
+| [rueidis](https://github.com/rueian/rueidis) | 447(2022/08/07) | Go | A Fast Golang Redis RESP3 client that supports Client Side Caching, Auto Pipelining, Generics OM, RedisJSON, RedisBloom, RediSearch, RedisAI, RedisGears, etc. |
 
 ---
 ## Redis Based Lock&Cache
@@ -232,3 +234,5 @@ Table of Contents
 >- add [godis](https://github.com/HDT3213/godis) on 2021/06/22
 >- add [redis-inventory](https://github.com/obukhov/redis-inventory) on 2021/09/16
 >- add [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) on 2022/01/05
+>- add [rueidis](https://github.com/rueian/rueidis) on 2022/08/06
+
