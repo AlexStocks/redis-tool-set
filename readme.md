@@ -50,6 +50,7 @@ Table of Contents
 | [rsedis](https://github.com/seppo0010/rsedis) | 1218 | Rust | Redis re-implemented in Rust |
 | [redis-windows](https://github.com/ServiceStack/redis-windows) | 2400 | C | Vagrant redis configuration and the binary releases of MS Open Tech redis port of windows |
 | [Tendis](https://github.com/tencent/Tendis) | 717 | C | a high-performance distributed storage system fully compatible with the Redis protocol. Using RocksDB as storage engine. All data is stored in RocksDB in a specific format, supporting PB-level storage capacity. |
+| [dragonfly](https://github.com/dragonflydb/dragonfly) | 18900 | C++ | An in-memory data store built for modern application workloads. Fully compatible with Redis and Memcached APIs, Dragonfly requires no code changes to adopt. Compared to legacy in-memory datastores, Dragonfly delivers 25X more throughput, higher cache hit rates with lower tail latency, and effortless vertical scalability. |
 
 
 ---
@@ -128,6 +129,7 @@ Table of Contents
 | [redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools) | 3103 | Python | Rdbtools is a parser for Redis' dump.rdb files. The parser generates events similar to an xml sax parser, and is very efficient memory wise. |
 | [redis-full-check](https://github.com/alibaba/RedisFullCheck) | 76 | Go | Redis-full-check is developed and maintained by NoSQL Team in Alibaba-Cloud Database department. Redis-full-check performs full data verification by comparing the data of the source database and the destination database. |
 | [redis-inventory](https://github.com/obukhov/redis-inventory) | 58 | Go |  Redis inventory is a tool to analyse Redis memory usage by key patterns and displaying it hierarchically. The name is inspired by "Disk Inventory X" tool doing similar analysis for disk usage. |
+| [rdr](https://github.com/xueqiu/rdr) | 1000 | Go | a tool to parse redis rdbfile. Comparing to redis-rdb-tools, RDR is implemented by golang, much faster (5GB rdbfile takes about 2mins on my PC). |
 
 ---
 ## Redis Admin Web & UI
@@ -235,4 +237,5 @@ Table of Contents
 >- add [redis-inventory](https://github.com/obukhov/redis-inventory) on 2021/09/16
 >- add [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) on 2022/01/05
 >- add [rueidis](https://github.com/rueian/rueidis) on 2022/08/06
+>- add [rdr](https://github.com/xueqiu/rdr) & [dragonfly](https://github.com/dragonflydb/dragonfly) on 2023/04/16
 
