@@ -5,6 +5,7 @@ Here is a Redis tool list. I hope you will find one or two of them that you'd li
 
 Table of Contents
 =================
+  * [Cloud Native](#cloud-native)
   * [Redis Cluster](#redis-cluster)
   * [Redis Variety](#redis-variety)
   * [Redis Proxy](#redis-proxy)
@@ -17,6 +18,13 @@ Table of Contents
   * [Redis Based Lock&amp;Cache](#redis-based-lockcache)
   * [Redis Ecosystem](#redis-ecosystem)
 
+---
+## Cloud Native
+
+| Project Name | Stars | Lang | Description |
+| :----------- | :---- | :--- | :---------- |
+| [redis-operator](https://github.com/OT-CONTAINER-KIT/redis-operator) | 508(2023/07/13) | Go | About
+A golang based redis operator that will make/oversee Redis standalone/cluster/replication/sentinel mode setup on top of the Kubernetes. |
 
 ---
 ## Redis Cluster
@@ -98,6 +106,9 @@ Table of Contents
 | [redis-tui](https://github.com/mylxsw/redis-tui) | 261(2019/04/28) | Go | A Redis Text-based UI client in CLI |
 | [hiredis-py](https://github.com/redis/hiredis-py) | 336(2019/10/30) |  Python | Python extension that wraps protocol parsing code in hiredis. It primarily speeds up parsing of multi bulk replies. |
 | [redis-rs](https://github.com/mitsuhiko/redis-rs) | 2000(2021/05/29) | Rust | a high level redis library for Rust. It provides convenient access to all Redis functionality through a very flexible but low-level API. It uses a customizable type conversion trait so that any operation can return results in just the type you are expecting. This makes for a very pleasant development experience. |
+| [go-ycsb](https://github.com/pingcap/go-ycsb) | 509(2023/07/14) | Go | go-ycsb is a Go port of YCSB. It fully supports all YCSB generators and the Core workload so we can do the basic CRUD benchmarks with Go. |
+| [eredis](https://github.com/Nordix/eredis) | 30(2023/07/14) | Erlang | Erlang Redis client. This is an actively maintained fork used and sponsored by Ericsson via Nordix Foundation.  |
+|  [aedis](https://github.com/mzimbres/aedis)  |  145(2023/07/14)   |  C++  |  An async redis client designed for performance and scalability  |
 
 ---
 ## Redis Data Migration
@@ -150,6 +161,7 @@ Table of Contents
 | [redisvo](https://github.com/taomin597715379/redisvo) | 27 | JavaScript | a web-based redis data visualization tool。|
 | [medis](https://github.com/luin/medis) | 7352 | JavaScript |  Medis is a beautiful, easy-to-use Redis management application built on the modern web with Electron, React, and Redux. It's powered by many awesome Node.js modules, especially ioredis and ssh2. |
 | [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) | 18000 | JavaScript | A faster, better and more stable redis desktop manager [GUI client], compatible with Linux, Windows, Mac. What's more, it won't crash when loading massive keys. |
+| [RedisInsight](https://github.com/RedisInsight/RedisInsight) | 3300(2023/07/14) | Js | RedisInsight is a visual tool that provides capabilities to design, develop and optimize your Redis application. Query, analyse and interact with your Redis data. |
 
 ---
 ## Redis Golang Packages
@@ -174,6 +186,7 @@ Table of Contents
 | [gosexy/redis](https://github.com/gosexy/redis) | 168 | Go | Redis client for Go that maps the full redis command list into equivalent Go functions. |
 | [go-resp3](https://github.com/stfnmllr/go-resp3) | 11 | Go | Google Go Redis RESP3 client |
 | [rueidis](https://github.com/rueian/rueidis) | 447(2022/08/07) | Go | A Fast Golang Redis RESP3 client that supports Client Side Caching, Auto Pipelining, Generics OM, RedisJSON, RedisBloom, RediSearch, RedisAI, RedisGears, etc. |
+| [redis_rate](https://github.com/go-redis/redis_rate) | 620(2023/07/14) | Go | This package is based on rwz/redis-gcra and implements GCRA (aka leaky bucket) for rate limiting based on Redis.  |
 
 ---
 ## Redis Based Lock&Cache
@@ -238,4 +251,5 @@ Table of Contents
 >- add [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) on 2022/01/05
 >- add [rueidis](https://github.com/rueian/rueidis) on 2022/08/06
 >- add [rdr](https://github.com/xueqiu/rdr) & [dragonfly](https://github.com/dragonflydb/dragonfly) on 2023/04/16
+>- add [redis-operator](https://github.com/OT-CONTAINER-KIT/redis-operator) & [go-ycsb](https://github.com/pingcap/go-ycsb) & [eredis](https://github.com/Nordix/eredis) & [aedis](https://github.com/mzimbres/aedis) & [RedisInsight](https://github.com/RedisInsight/RedisInsight) & [redis_rate](https://github.com/go-redis/redis_rate) on 2023/07/14
 
