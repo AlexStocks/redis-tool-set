@@ -59,7 +59,7 @@ A golang based redis operator that will make/oversee Redis standalone/cluster/re
 | [redis-windows](https://github.com/ServiceStack/redis-windows) | 2400 | C | Vagrant redis configuration and the binary releases of MS Open Tech redis port of windows |
 | [Tendis](https://github.com/tencent/Tendis) | 717 | C | a high-performance distributed storage system fully compatible with the Redis protocol. Using RocksDB as storage engine. All data is stored in RocksDB in a specific format, supporting PB-level storage capacity. |
 | [dragonfly](https://github.com/dragonflydb/dragonfly) | 18900 | C++ | An in-memory data store built for modern application workloads. Fully compatible with Redis and Memcached APIs, Dragonfly requires no code changes to adopt. Compared to legacy in-memory datastores, Dragonfly delivers 25X more throughput, higher cache hit rates with lower tail latency, and effortless vertical scalability. |
-
+| [rsedis](https://github.com/seppo0010/rsedis) | 1700 | Rust | Redis re-implemented in Rust | 
 
 ---
 ## Redis Proxy
