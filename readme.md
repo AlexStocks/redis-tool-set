@@ -82,7 +82,7 @@ A golang based redis operator that will make/oversee Redis standalone/cluster/re
 | [redis-twemproxy-agent](https://github.com/Stono/redis-twemproxy-agent) | 84 | JavaScript | A simple nodejs application which will connect to Redis-Sentinel and monitor for the master-change event. It will then update TwemProxy (nutcracker) and restart it. |
 | [r3proxy](https://github.com/ksarch-saas/r3proxy) | 22 | C | written by baidu tieba. a twemproxy with rediscluster support. |
 | [meitu/twemproxy](https://github.com/meitu/twemproxy) | 124 | C | written by meitu. [meitu](https://github.com/meitu/) twemproxy is a multi-process, fast and lightweight proxy for [memcached](www.memcached.com) and [redis](redis.io) protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture. |
-
+| [clia/rcproxy](https://github.com/clia/rcproxy) | 31(until 2023/08/17) | Rust | RCProxy is a lightweight, fast but powerful Redis Cluster Proxy written in Rust |
 
 
 ---
@@ -252,4 +252,5 @@ A golang based redis operator that will make/oversee Redis standalone/cluster/re
 >- add [rueidis](https://github.com/rueian/rueidis) on 2022/08/06
 >- add [rdr](https://github.com/xueqiu/rdr) & [dragonfly](https://github.com/dragonflydb/dragonfly) on 2023/04/16
 >- add [redis-operator](https://github.com/OT-CONTAINER-KIT/redis-operator) & [go-ycsb](https://github.com/pingcap/go-ycsb) & [eredis](https://github.com/Nordix/eredis) & [aedis](https://github.com/mzimbres/aedis) & [RedisInsight](https://github.com/RedisInsight/RedisInsight) & [redis_rate](https://github.com/go-redis/redis_rate) on 2023/07/14
+ >- add [clia/rcproxy](https://github.com/clia/rcproxy) & [rsedis](https://github.com/seppo0010/rsedis)  on 2023/08/17
 
