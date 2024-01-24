@@ -163,6 +163,7 @@ A golang based redis operator that will make/oversee Redis standalone/cluster/re
 | [medis](https://github.com/luin/medis) | 7352 | JavaScript |  Medis is a beautiful, easy-to-use Redis management application built on the modern web with Electron, React, and Redux. It's powered by many awesome Node.js modules, especially ioredis and ssh2. |
 | [AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) | 18000 | JavaScript | A faster, better and more stable redis desktop manager [GUI client], compatible with Linux, Windows, Mac. What's more, it won't crash when loading massive keys. |
 | [RedisInsight](https://github.com/RedisInsight/RedisInsight) | 3300(2023/07/14) | Js | RedisInsight is a visual tool that provides capabilities to design, develop and optimize your Redis application. Query, analyse and interact with your Redis data. |
+| [tiny-rdm](https://github.com/tiny-craft/tiny-rdm) |  3100(until 2024/01/24) | Js |  a modern lightweight cross-platform Redis desktop manager available for Mac, Windows, and Linux   |  
 
 ---
 ## Redis Golang Packages
@@ -254,5 +255,6 @@ A golang based redis operator that will make/oversee Redis standalone/cluster/re
 >- add [rdr](https://github.com/xueqiu/rdr) & [dragonfly](https://github.com/dragonflydb/dragonfly) on 2023/04/16
 >- add [redis-operator](https://github.com/OT-CONTAINER-KIT/redis-operator) & [go-ycsb](https://github.com/pingcap/go-ycsb) & [eredis](https://github.com/Nordix/eredis) & [aedis](https://github.com/mzimbres/aedis) & [RedisInsight](https://github.com/RedisInsight/RedisInsight) & [redis_rate](https://github.com/go-redis/redis_rate) on 2023/07/14
  >- add [clia/rcproxy](https://github.com/clia/rcproxy) & [rsedis](https://github.com/seppo0010/rsedis)  on 2023/08/17
- >- add Bifrost](https://github.com/brokercap/Bifrost) on 2023/12-03
+ >- add [Bifrost](https://github.com/brokercap/Bifrost) on 2023/12-03
+ >- add [tiny-rdm](https://github.com/tiny-craft/tiny-rdm) on 2024/01/24
 
