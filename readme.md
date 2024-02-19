@@ -83,6 +83,7 @@ A golang based redis operator that will make/oversee Redis standalone/cluster/re
 | [r3proxy](https://github.com/ksarch-saas/r3proxy) | 22 | C | written by baidu tieba. a twemproxy with rediscluster support. |
 | [meitu/twemproxy](https://github.com/meitu/twemproxy) | 124 | C | written by meitu. [meitu](https://github.com/meitu/) twemproxy is a multi-process, fast and lightweight proxy for [memcached](www.memcached.com) and [redis](redis.io) protocol. It was built primarily to reduce the number of connections to the caching servers on the backend. This, together with protocol pipelining and sharding enables you to horizontally scale your distributed caching architecture. |
 | [clia/rcproxy](https://github.com/clia/rcproxy) | 31(until 2023/08/17) | Rust | RCProxy is a lightweight, fast but powerful Redis Cluster Proxy written in Rust |
+| [camellia](https://github.com/netease-im/camellia) | 493(until 2024/02/19) | Java | Camellia provide easy-to-use server toolkits, such as: redis proxy、delay queue、id gen、hot key and more | 
 
 
 ---
@@ -257,4 +258,5 @@ A golang based redis operator that will make/oversee Redis standalone/cluster/re
  >- add [clia/rcproxy](https://github.com/clia/rcproxy) & [rsedis](https://github.com/seppo0010/rsedis)  on 2023/08/17
  >- add [Bifrost](https://github.com/brokercap/Bifrost) on 2023/12-03
  >- add [tiny-rdm](https://github.com/tiny-craft/tiny-rdm) on 2024/01/24
+ >- add [camellia](https://github.com/netease-im/camellia) on 2024/02/19
 
