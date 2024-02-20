@@ -23,8 +23,7 @@ Table of Contents
 
 | Project Name | Stars | Lang | Description |
 | :----------- | :---- | :--- | :---------- |
-| [redis-operator](https://github.com/OT-CONTAINER-KIT/redis-operator) | 508(2023/07/13) | Go | About
-A golang based redis operator that will make/oversee Redis standalone/cluster/replication/sentinel mode setup on top of the Kubernetes. |
+| [redis-operator](https://github.com/OT-CONTAINER-KIT/redis-operator) | 508(2023/07/13) | Go | A golang based redis operator that will make/oversee Redis standalone/cluster/replication/sentinel mode setup on top of the Kubernetes. |
 
 ---
 ## Redis Cluster
