@@ -109,6 +109,7 @@ Table of Contents
 | [go-ycsb](https://github.com/pingcap/go-ycsb) | 509(2023/07/14) | Go | go-ycsb is a Go port of YCSB. It fully supports all YCSB generators and the Core workload so we can do the basic CRUD benchmarks with Go. |
 | [eredis](https://github.com/Nordix/eredis) | 30(2023/07/14) | Erlang | Erlang Redis client. This is an actively maintained fork used and sponsored by Ericsson via Nordix Foundation.  |
 |  [aedis](https://github.com/mzimbres/aedis)  |  145(2023/07/14)   |  C++  |  An async redis client designed for performance and scalability  |
+| [iredis](https://github.com/laixintao/iredis) | 2400(until 2023/02/20) | Python | Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting |
 
 ---
 ## Redis Data Migration
@@ -258,4 +259,5 @@ Table of Contents
  >- add [Bifrost](https://github.com/brokercap/Bifrost) on 2023/12-03
  >- add [tiny-rdm](https://github.com/tiny-craft/tiny-rdm) on 2024/01/24
  >- add [camellia](https://github.com/netease-im/camellia) on 2024/02/19
+ >- add [rsedis](https://github.com/seppo0010/rsedis) on 2024/02/20
 
