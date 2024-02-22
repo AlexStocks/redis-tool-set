@@ -34,6 +34,7 @@ Table of Contents
 | [x-pipe](https://github.com/ctripcorp/x-pipe) | 791 | Java | Redis 多数据中心集群，一是为了提升可用性，解决数据中心 DR(Disaster Recovery) 问题，二是提升访问性能，每个数据中心可以读取当前数据中心的数据，无需跨机房读数据。|
 | [cc](https://github.com/ksarch-saas/cc) | 32(2019/04/06) | Go & Js | This is a Redis Cluster Controller to control the state of the cluster nodes and provide http api and tools(both command line and web ui). Star: 17(until 2017/08/19). |
 | [godis](https://github.com/HDT3213/godis) | 629 | Go | Godis is a golang implementation of Redis Server, which intents to provide an example of writing a high concurrent middleware using golang. |
+| [redis_builder](https://github.com/acl-dev/acl/tree/master/app/redis_tools/redis_builder) | 2700(until 2024/02/22) |  C++ | A redis tool for redis cluster, which can help to build a new redis cluster, add one new redis node to the existing one or cluster, show the information of the redis cluster about nodes and slots. |
 
 ---
 ## Redis Variety
@@ -58,7 +59,6 @@ Table of Contents
 | [redis-windows](https://github.com/ServiceStack/redis-windows) | 2400 | C | Vagrant redis configuration and the binary releases of MS Open Tech redis port of windows |
 | [Tendis](https://github.com/tencent/Tendis) | 717 | C | a high-performance distributed storage system fully compatible with the Redis protocol. Using RocksDB as storage engine. All data is stored in RocksDB in a specific format, supporting PB-level storage capacity. |
 | [dragonfly](https://github.com/dragonflydb/dragonfly) | 18900 | C++ | An in-memory data store built for modern application workloads. Fully compatible with Redis and Memcached APIs, Dragonfly requires no code changes to adopt. Compared to legacy in-memory datastores, Dragonfly delivers 25X more throughput, higher cache hit rates with lower tail latency, and effortless vertical scalability. |
-| [rsedis](https://github.com/seppo0010/rsedis) | 1700 | Rust | Redis re-implemented in Rust | 
 
 ---
 ## Redis Proxy
@@ -110,6 +110,8 @@ Table of Contents
 | [eredis](https://github.com/Nordix/eredis) | 30(2023/07/14) | Erlang | Erlang Redis client. This is an actively maintained fork used and sponsored by Ericsson via Nordix Foundation.  |
 |  [aedis](https://github.com/mzimbres/aedis)  |  145(2023/07/14)   |  C++  |  An async redis client designed for performance and scalability  |
 | [iredis](https://github.com/laixintao/iredis) | 2400(until 2023/02/20) | Python | Interactive Redis: A Terminal Client for Redis with AutoCompletion and Syntax Highlighting |
+| [Acl redis Client](https://github.com/acl-dev/acl/tree/master/lib_acl_cpp/samples/redis) | 2700(until 2024/02/22) |  C++ | The redis module in Acl is a powerful redis client library with higth performance, rich interface and easy to use. There are more than 13 C++ classes and over 150 commands in Acl redis, including STRING, HASH, LIST, SET, ZSET, HyperLogLog, PUBSUB, STREAM, TRANSACTION, SCRIPT, CONNECTION, SERVER, etc. User using Acl redis doesn't need care about network comminucation, redis protocol, hash slots caching, etc., just like using C++ STL standard interface. |
+
 
 ---
 ## Redis Data Migration
@@ -260,4 +262,5 @@ Table of Contents
  >- add [tiny-rdm](https://github.com/tiny-craft/tiny-rdm) on 2024/01/24
  >- add [camellia](https://github.com/netease-im/camellia) on 2024/02/19
  >- add [rsedis](https://github.com/seppo0010/rsedis) on 2024/02/20
+ >- add [redis_builder](https://github.com/acl-dev/acl/tree/master/app/redis_tools/redis_builder) and [Acl redis Client](https://github.com/acl-dev/acl/tree/master/lib_acl_cpp/samples/redis) on 2024/02/22
 
