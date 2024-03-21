@@ -35,6 +35,7 @@ Table of Contents
 | [cc](https://github.com/ksarch-saas/cc) | 32(2019/04/06) | Go & Js | This is a Redis Cluster Controller to control the state of the cluster nodes and provide http api and tools(both command line and web ui). Star: 17(until 2017/08/19). |
 | [godis](https://github.com/HDT3213/godis) | 629 | Go | Godis is a golang implementation of Redis Server, which intents to provide an example of writing a high concurrent middleware using golang. |
 | [redis_builder](https://github.com/acl-dev/acl/tree/master/app/redis_tools/redis_builder) | 2700(until 2024/02/22) |  C++ | A redis tool for redis cluster, which can help to build a new redis cluster, add one new redis node to the existing one or cluster, show the information of the redis cluster about nodes and slots. |
+| [garnet](https://github.com/microsoft/garnet) | 2600(until 2024/03/21) | C# | Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication features. Garnet can work with existing Redis clients. |
 
 ---
 ## Redis Variety
@@ -263,4 +264,5 @@ Table of Contents
  >- add [camellia](https://github.com/netease-im/camellia) on 2024/02/19
  >- add [rsedis](https://github.com/seppo0010/rsedis) on 2024/02/20
  >- add [redis_builder](https://github.com/acl-dev/acl/tree/master/app/redis_tools/redis_builder) and [Acl redis Client](https://github.com/acl-dev/acl/tree/master/lib_acl_cpp/samples/redis) on 2024/02/22
+ >- add [garnet](https://github.com/microsoft/garnet) on 2024/03/21
 
