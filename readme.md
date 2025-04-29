@@ -204,6 +204,7 @@ Table of Contents
 | [Distributed locks using Redis](https://engineering.gosquared.com/distributed-locks-using-redis) | | | How to create reliable locks for a distributed architecture. |
 | [Redis lock algorithm and implementation list: Distributed locks with Redis](https://redis.io/topics/distlock) | | |  |
 | [redsync](https://github.com/go-redsync/redsync) | 358 | Go | Distributed mutual exclusion lock using Redis for Go. |
+| [redislock](https://github.com/bsm/redislock) | 1600 | Go | Simplified distributed locking implementation using Redis | 
 
 ---
 ## Redis Ecosystem
@@ -269,4 +270,5 @@ Table of Contents
  >- add [garnet](https://github.com/microsoft/garnet) on 2024/03/21
  >- add [redka](https://github.com/nalgeon/redka) on 2024/04/15
  >- add [redissyncer-server](https://github.com/TraceNature/redissyncer-server)  on 2024/10/15
+ >- add  [redislock](https://github.com/bsm/redislock) on 2025/04/29
 
