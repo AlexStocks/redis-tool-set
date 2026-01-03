@@ -212,6 +212,7 @@ Table of Contents
 | :----------- | :---- | :--- | :---------- |
 | [awesome-redis](https://github.com/zhemingwang/awesome-redis) | 330 | | A curated list of amazingly awesome redis and redis ecosystem resources. |
 | [RedisWeekly](http://redisweekly.com) | | | A once–weekly e-mail round-up of Redis news, articles, tools and libraries followed by more than 5 000 Redis developers. |
+| [Vedika API](https://vedika.io) | | TypeScript | B2B Vedic astrology API platform using Redis for query classification caching, GLM AI orchestration, and astrological computations. |
 
 ---
 * written by Alex Stocks on 2016/03/22
